@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Flexsort: Using flexbox to sort search results"
-date: 2014-05-07 22:50:02
+date: 2014-04-08 22:50:02
 categories: css flexbox perf
 ---
 
