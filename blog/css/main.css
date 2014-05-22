@@ -65,7 +65,8 @@ html, body {
 body {
   background: #fff;
   color: #333;
-  font: 13px "Old Standard", oldstandard, Helvetica, sans-serif;
+  /*font: 13px "Old Standard", oldstandard, Helvetica, sans-serif;*/
+  font: 15px "Helvetica Neue", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, .meta, .posts li {
@@ -88,9 +89,9 @@ p {
 }
 
 a {
+  border-bottom: 1px solid transparent;
   text-decoration: none;
-  -webkit-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out;
+  transition: border-bottom .15s ease-in-out, color .15s ease-in-out;
 }
 
 a:link {
@@ -98,15 +99,16 @@ a:link {
 }
 
 a:visited {
-  color: #b0c;
   color: #07d;
 }
 
 a:hover {
+  border-bottom-color: #def;
   color: #0ae;
 }
 
 a:active {
+  border-bottom-color: #fed;
   color: #f81;
 }
 
@@ -117,13 +119,13 @@ a:active {
 
 .posts li {
   line-height: 1.75em;
+  padding-left: 0px;
 }
 
-.posts span {
+.posts time {
   color: #999;
+  display: block;
   font-size: 50%;
-  padding-right: .5em;
-  vertical-align: middle;
 }
 
 main {
@@ -192,9 +194,6 @@ main {
   border: 0;
 }
 
-.post p {
-}
-
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -202,7 +201,11 @@ main {
 }
 
 .post ul, .post ol {
-  margin-left: 1.35em;
+  margin: 1.5em 1.3em;
+}
+
+.post li + li {
+  margin-top: 1em;
 }
 
 .post code {
