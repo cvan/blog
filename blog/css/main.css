@@ -69,9 +69,8 @@ body {
   font: 15px "Helvetica Neue", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, .meta, .posts li {
-  font-family: monofur, monospace;
-  text-transform: uppercase;
+h1, h2, h3, h4, h5, h6, time, .post-title {
+  font-family: "Akzidenz-Grotesk BQ", "Helvetica Neue", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -88,44 +87,59 @@ p {
   margin: 1em 0;
 }
 
-a {
+a, .link {
   border-bottom: 1px solid transparent;
   text-decoration: none;
   transition: border-bottom .15s ease-in-out, color .15s ease-in-out;
 }
 
-a:link {
+a:link, a:link .link {
   color: #07d;
 }
 
-a:visited {
+a:visited, a:visited .link {
   color: #07d;
 }
 
-a:hover {
+a:hover, a:hover .link {
   border-bottom-color: #def;
   color: #0ae;
 }
 
-a:active {
+a:active, a:active .link {
   border-bottom-color: #fed;
   color: #f81;
 }
 
 .posts {
   list-style: none;
-  margin: 1em 0 2em;
 }
 
-.posts li {
-  line-height: 1.75em;
-  padding-left: 0px;
+.posts li a {
+  padding-bottom: 1em;
 }
 
-.posts time {
+.posts li:last-child a {
+  padding-bottom: 0;
+}
+
+.posts li + li a {
+  padding-top: 1em;
+}
+
+.posts a {
+  display: block;
+}
+
+.posts a:hover {
+  border-bottom-color: transparent;
+}
+
+time {
   color: #999;
   display: block;
-  font-size: 50%;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 main {
@@ -155,15 +169,12 @@ main {
 
 .header a.extra {
   color: #aaa;
+  display: none;
 }
 
 .header a.extra:hover {
+  border-bottom-color: #eee;
   color: #000;
-}
-
-.meta {
-  color: #aaa;
-  margin: 0 0 1em;
 }
 
 .footer {
@@ -229,11 +240,11 @@ main {
   background-color: #333;
 }
 
-article h1, .posts li {
-  color: #06BDC1;
-  font-size: 180%;
-  line-height: 1.25;
-  margin-top: .5em;
+.post-title {
+  color: #06bdc1;
+  font-size: 250%;
+  font-weight: 500;
+  line-height: 1.15;
 }
 
 @media screen and (max-width: 1000px) {
