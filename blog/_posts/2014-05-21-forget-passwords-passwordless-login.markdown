@@ -7,7 +7,7 @@ categories: authentication design usability
 
 Forgot password? No, forget passwords.
 
-Passwords are the worst. These days nearly every site and app asks you to sign up and sign in. Some aren’t even polite about it. You want to buy those new kicks? You want to read this salicious forum post? You want free wifi so you don’t have to make smalltalk with strangers at the café? Go create an account and then maybe we’ll think about it.
+Passwords are the worst. These days nearly every site and app asks you to sign up and sign in. Some aren’t even polite about it. You want to buy those new kicks? You want to read this salacious forum post? You want free wifi so you don’t have to make smalltalk with strangers at the café? Go create an account and then maybe we’ll think about it.
 
 Two lessons before we continue: try really, really hard to figure out how to save user state and try to never ever block a user on login unless special permissions are needed. Envision how your site or app would function if there were no email/username/password fields.
 
@@ -37,7 +37,7 @@ There will likely never be a single authentication app, so users may have to ins
 
 There are two things that are used almost universally: email and SMS. Almost everyone trusts his/her email account with his/her life. And every web site knows that. That’s why email is most commonly your unique identifier, why you get email confirmations sent there, why you get password reset links sent there, and so on. Then there’s SMS. As the world gets increasingly more mobile, and more people secure their phones with PINs (and not stupid ones) and don’t have public notifications visible from the lockscreen, SMS can become a source of trust for authentication.
 
-You could continue to rely on your guaranteed-foolproof memory (or your password manager or the sheet of paper you keep tucked under your matress or the Moleskine you keep buried in your backyard garden). Most people solve this issue by using the same password everywhere, choosing basic passwords, or coming up with a mneumonic device (like an easy-to-remember phrase + random characters + characters derived from the name of the site). Why not instead just tie authentication directly to a user’s email or phone (whichever the user trusts more). In today’s Web landscape, a user’s email is considered the most authoritative identifier of a user’s identity.
+You could continue to rely on your guaranteed-foolproof memory (or your password manager or the sheet of paper you keep tucked under your mattress or the Moleskine you keep buried in your backyard garden). Most people solve this issue by using the same password everywhere, choosing basic passwords, or coming up with a mnemonic device (like an easy-to-remember phrase + random characters + characters derived from the name of the site). Why not instead just tie authentication directly to a user’s email or phone (whichever the user trusts more). In today’s Web landscape, a user’s email is considered the most authoritative identifier of a user’s identity.
 
 Today’s typical registration flow:
 

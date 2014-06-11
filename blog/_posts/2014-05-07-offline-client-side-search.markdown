@@ -5,7 +5,7 @@ date: 2014-05-07 19:53:00
 categories: javascript search perf
 ---
 
-I always try to avoid round trips to the server whenever possible. Naturally, I’m a fan of offline, client-side filtering and searching. And by offline, I mean the search is done without making a network request. There are a few libraries in the wild to achieve this. My library of choice is [lunr.js](http://lunrjs.com/).
+I always try to avoid round trips to the server whenever possible. Naturally, I'm a fan of offline, client-side filtering and searching. And by offline, I mean the search is done without making a network request. There are a few libraries in the wild to achieve this. My library of choice is [lunr.js](http://lunrjs.com/).
 
 The typical procedure goes something like this:
 
@@ -15,9 +15,9 @@ The typical procedure goes something like this:
 4. Populate a search index by passing the array of objects to your search indexer, which takes care of creating an inverted index and so forth and so on.
 5. Web worker `postMessage`s back to the main script to announce that the search index is populated and ready for queries.
 6. The results area is replaced with generated HTML for each list item (e.g., `document.querySelector('ul.results').innerHTML = resultsHTML`).
-5. Search queries (typically, upon keypress in an `input[type=search]` field) are passed to the search web worker.
-6. Web worker `postMessage`s back to the main script an array of ids, which corresponds to ids of the search documents that match the given query (sorted by relevance).
-7. Based on the new results, the main script replaces the `innerHTML` of the results area again. (You could keep in memory the DOM of each element and change only those that you need to. Consider looking at [Facebook’s React](http://facebook.github.io/react/), which sports a fancy algorithm that keeps in memory virtual DOM and does a difference of the HTML before and after to make only the absolutely necessary DOM manipulations. Or you could use [flexsort](/css/flexbox/perf/2014/05/07/flexsort-using-flexbox-to-sort-search-results.html), the most clever technique ever invented.)
+7. Search queries (typically, upon keypress in an `input[type=search]` field) are passed to the search web worker.
+8. Web worker `postMessage`s back to the main script an array of ids, which corresponds to ids of the search documents that match the given query (sorted by relevance).
+9. Based on the new results, the main script replaces the `innerHTML` of the results area again. (You could keep in memory the DOM of each element and change only those that you need to. Consider looking at [Facebook’s React](http://facebook.github.io/react/), which sports a fancy algorithm that keeps in memory virtual DOM and does a difference of the HTML before and after to make only the absolutely necessary DOM manipulations. Or you could use [flexsort](/css/flexbox/perf/2014/05/07/flexsort-using-flexbox-to-sort-search-results.html), the most clever technique ever invented.)
 
 ## Demo
 

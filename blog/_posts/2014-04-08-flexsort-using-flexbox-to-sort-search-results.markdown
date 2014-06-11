@@ -5,13 +5,13 @@ date: 2014-04-08 22:50:02
 categories: css flexbox perf
 ---
 
-Most sites that use search allow you to sort by a particular criterion such as price or year. When you sort by a particular criterion, most sites either synchronously load a new page or update the DOM right then and there. Be sure read my post on [client-side search](/javascript/search/perf/2014/05/07/offline-search.html).
+Most sites that use search allow you to sort by a particular criterion such as price or year. When you sort by a particular criterion, most sites either synchronously load a new page or update the DOM right then and there. Be sure to read my post on [client-side search](/javascript/search/perf/2014/05/07/offline-search.html).
 
 With the former approach, you are wasting time and bandwidth: at least one request has to be made for the HTML document, not to mention all the other resources requested on that page. You can do better by becoming a true single-paged app, so that you only request new content as needed.
 
 With the latter approach, you can request from the server an HTML fragment or ideally JSON (which is used to render a template using JS) to replace the HTML of the results area. This isn’t a terrible method, but you DOM manipulations are expensive. You could take a less naïve approach and keep in memory the DOM of each element and change only those elements that you need to. [Facebook’s React](http://facebook.github.io/react/) is a framework that keeps in memory a virtual DOM and does a difference of the HTML before and after to make only the absolutely necessary DOM manipulations.
 
-Instead of physically rearranging existing DOM nodes, or destroying existing nodes and re-rendering new ones, we can reorder the search results using just one CSS property: flexbox’s [order](https://developer.mozilla.org/en-US/docs/Web/CSS/order).
+Instead of physically rearranging existing DOM nodes, or destroying existing nodes and re-rendering new ones, we can reorder the search results using just one CSS property: flexbox’s [`order`](https://developer.mozilla.org/en-US/docs/Web/CSS/order).
 
 And there you have it! Flexsort: the ability to render sorted data without having to reconstitute the DOM.
 
