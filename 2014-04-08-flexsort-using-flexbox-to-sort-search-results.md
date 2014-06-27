@@ -1,11 +1,6 @@
----
-layout: post
-title: "Flexsort: Using flexbox to sort search results"
-date: 2014-04-08 22:50:02
-categories: css flexbox perf
----
+# Flexsort: Using flexbox to sort search results
 
-Most sites that use search allow you to sort by a particular criterion such as price or year. When you sort by a particular criterion, most sites either synchronously load a new page or update the DOM right then and there. Be sure to read my post on [client-side search](/javascript/search/perf/2014/05/07/offline-search.html).
+Most sites that use search allow you to sort by a particular criterion such as price or year. When you sort by a particular criterion, most sites either synchronously load a new page or update the DOM right then and there.
 
 With the former approach, you are wasting time and bandwidth: at least one request has to be made for the HTML document, not to mention all the other resources requested on that page. You can do better by becoming a true single-paged app, so that you only request new content as needed.
 
@@ -23,7 +18,7 @@ This is a basic, no-frills example of sorting ordered data using flexsort.
 
 ## Getting fancy
 
-For the talented and gifted, feel free to try these at home:
+It’s you’re feeling up for it, try these at home:
 
 * Allow a user to reverse the sort order.
 * Instead of just basic ordering, allow results to also be filtered by simply hiding and showing the elements as needed (using the CSS property `display`).

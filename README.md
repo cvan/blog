@@ -1,34 +1,11 @@
-# cvan.github.io
+# blog
 
-See about cvan.
+This is cvan's blog.
 
+# Composing
 
-# Installation
+Place a Markdown (`.md`) file in the `drafts` directory.
 
-We use [grunt](http://gruntjs.com/):
+# Publishing
 
-    npm install grunt-cli -g
-
-Then install our dependencies:
-
-    npm install
-
-
-# Development
-
-Load from a page with an origin (i.e., a server). If you're running locally,
-use grunt to fire up a local server:
-
-    DEBUG=1 OPEN=1 grunt
-
-To build production-ready `index.html` and the minified stylesheet,
-`style.min.css`:
-
-    grunt minify
-
-
-# Deployment
-
-To deploy the production-ready `index.html`:
-
-    git push
+Move the Markdown file from the `drafts` directory to the root directory. Then run `_ <post.md>` to generate the static HTML file.

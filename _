@@ -1,0 +1,109 @@
+#!/usr/bin/env python
+
+import datetime
+import os
+import re
+import sys
+import urllib2
+
+
+def template(raw, values):
+    def replace(match):
+        item = match.group(1)
+        return values.get(item, '<!-- empty %s -->' % item)
+    return re.sub(r'\{\{ ?([a-zA-Z_]+) ?\}\}', replace, raw)
+
+
+def markdown(data):
+    try:
+        req = urllib2.Request('https://api.github.com/markdown/raw', data)
+        req.add_header('Content-Type', 'text/plain')
+        return urllib2.urlopen(req).read()
+    except Exception as e:
+        print e.read()
+        raise e
+
+
+def get_data(markdown, filename):
+    title = filename
+    title_matches = re.search('# .+', markdown)
+    if title_matches:
+        title = title_matches.group(0)[2:]
+    elif filename.endswith(('.markdown', '.md')):
+        title = filename[:-3].replace('_', ' ')
+        # Title case
+        title = ' '.join(
+            x[0].upper() + x[1:] for i, x in enumerate(title.split(' ')) if
+            x.lower() not in ('a', 'of', 'the') or not i)
+
+    year, month, date = map(int, filename.split('-')[:3])
+    created = datetime.datetime(year, month, date)
+
+    return {
+        'title': title,
+        'created': created.strftime('%d %b %Y').replace(' 0', ' ')
+                                               .lstrip('0'),
+        'created_date': created.strftime('%a %b %d %H:%M:%S %Y'),
+        'url': '/%s.html' % filename.rsplit('.', 1)[0],
+    }
+
+
+header = open('templates/header.html').read()
+footer = open('templates/footer.html').read()
+list_header = open('templates/list_header.html').read()
+list_item = open('templates/list_item.html').read()
+list_footer = open('templates/list_footer.html').read()
+article_header = open('templates/article_header.html').read()
+article_footer = open('templates/article_footer.html').read()
+
+
+def homepage_body():
+    files = (x for x in os.listdir('.') if
+             x.endswith('.md') and os.path.exists(x[:-2] + 'html'))
+    filedata = (get_data(open(f).read(), f) for f in files)
+    posts = sorted(
+        filedata, cmp=lambda a, b: cmp(a['created_date'], b['created_date']))
+    posts = reversed(posts)
+    return (list_header +
+        ''.join(template(list_item, data) for data in posts) +
+        list_footer)
+
+
+def assemble(path=None):
+    data = {}
+
+    if path:
+        contents = open(path).read()
+        data = get_data(contents, path)
+        data['body'] = markdown(contents)
+        data['title'] += ' | '
+
+        output_header = header + article_header
+        output_footer = article_footer + footer
+    else:
+        data['body'] = (homepage_body() or
+            '<p class="empty">There aren\'t any posts here yet!</p>')
+        data['title'] = ''
+
+        output_header = header
+        output_footer = footer
+
+    data['page_type'] = 'item' if path else 'home'
+    output = template(output_header + '{{ body }}' + output_footer, data)
+
+    outpath = path.rsplit('.', 1)[0] + '.html' if path else 'index.html'
+    with open(outpath, mode='w') as outfile:
+        print 'Writing to %s' % outpath
+        outfile.write(output)
+
+
+if __name__ == '__main__':
+    if len(sys.argv) == 1:
+        print 'No file specified.'
+        sys.exit(1)
+    to_open = sys.argv[1]
+    if not os.path.exists(to_open):
+        print 'Could not open "%s" for rendering.' % to_open
+        sys.exit(1)
+    assemble(to_open)  # Render article page.
+    assemble()  # Render homepage.
