@@ -44,7 +44,7 @@ def get_data(markdown, filename):
         'created': created.strftime('%d %b %Y').replace(' 0', ' ')
                                                .lstrip('0'),
         'created_date': created.strftime('%a %b %d %H:%M:%S %Y'),
-        'url': '/%s.html' % filename.rsplit('.', 1)[0],
+        'url': '%s.html' % filename.rsplit('.', 1)[0],
     }
 
 
