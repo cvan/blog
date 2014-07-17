@@ -26,7 +26,7 @@ body {
 }
 
 .post-title, h1, h2, h3, h4, h5, h6, time {
-  font-family: "Akzidenz-Grotesk BQ", "Helvetica Neue", sans-serif;
+  font-family: akzidenz-grotesk-webfont, "Akzidenz-Grotesk BQ", "Helvetica Neue", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
