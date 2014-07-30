@@ -1,9 +1,9 @@
 @font-face {
   font-family: akzidenz-grotesk-webfont;
   src: local('Akzidenz-Grotesk BQ Medium'),
-       url('akzidenzgrotesk-medium-webfont.woff') format('woff'),
-       url('akzidenzgrotesk-medium-webfont.ttf') format('truetype'),
-       url('akzidenzgrotesk-medium-webfont.svg#akzidenz-grotesk_bqmedium') format('svg');
+       url('../fonts/akzidenzgrotesk-medium-webfont.woff') format('woff'),
+       url('../fonts/akzidenzgrotesk-medium-webfont.ttf') format('truetype'),
+       url('../fonts/akzidenzgrotesk-medium-webfont.svg#akzidenz-grotesk_bqmedium') format('svg');
   font-weight: 500;
   font-style: normal;
 }
