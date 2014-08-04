@@ -85,6 +85,8 @@ def assemble(path=None):
     data = {}
 
     if path:
+        path = os.path.basename(path)
+
         contents = read_file(path)
         data = get_data(contents, path)
         data['body'] = markdown(contents)
