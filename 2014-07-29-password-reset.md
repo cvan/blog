@@ -1,6 +1,223 @@
 # Password Reset
 
 
+<table class="password-reset-comparison">
+  <thead>
+    <tr>
+      <th>Site</th>
+      <th>Email only</th>
+      <th>Email + password</th>
+      <th>Email only, form submitted</th>
+      <th>Email + password, form submitted</th>
+      <th>Different email + password, form submitted</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://www.airbnb.com/"><img src="img/password-reset/airbnb.png" alt="Airbnb" title="Airbnb"></a>
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.amazon.com/gp/sign-in.html"><img src="img/password-reset/amazon.png" alt="Amazon" title="Amazon"></a>
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.facebook.com/"><img src="img/password-reset/facebook.png" alt="Facebook" title="Facebook"></a>
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/"><img src="img/password-reset/github.png" alt="GitHub" title="GitHub"></a>
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://accounts.google.com/ServiceLogin"><img src="img/password-reset/google.png" alt="Google" title="Google"></a>
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.kickstarter.com/login"><img src="img/password-reset/kickstarter.png" alt="Kickstarter" title="Kickstarter"></a>
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.linkedin.com/"><img src="img/password-reset/linkedin.png" alt="LinkedIn" title="LinkedIn"></a>
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.pinterest.com/login/"><img src="img/password-reset/pinterest.png" alt="Pinterest" title="Pinterest"></a>
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.tumblr.com/login"><img src="img/password-reset/tumblr.png" alt="Tumblr" title="Tumblr"></a>
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://twitter.com/"><img src="img/password-reset/twitter.png" alt="Twitter" title="Twitter"></a>
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<!--
 
 ## Github
 
@@ -68,3 +285,5 @@
   <source src="http://cvan.io/password-reset-screencasts/screencasts/github_5.webm" type='video/webm;codecs="vp8, vorbis"'>
   <source src="http://cvan.io/password-reset-screencasts/screencasts/github_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
 </video>
+
+-->
