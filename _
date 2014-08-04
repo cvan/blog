@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 
+import codecs
 import datetime
 import os
 import re
 import sys
-import urllib2
+
+from markdown import markdown as md
 
 
 def template(raw, values):
@@ -14,14 +16,8 @@ def template(raw, values):
     return re.sub(r'\{\{ ?([a-zA-Z_]+) ?\}\}', replace, raw)
 
 
-def markdown(data):
-    try:
-        req = urllib2.Request('https://api.github.com/markdown/raw', data)
-        req.add_header('Content-Type', 'text/plain')
-        return urllib2.urlopen(req).read()
-    except Exception as e:
-        print e.read()
-        raise e
+def markdown(text):
+    return md(text)
 
 
 def get_data(markdown, filename):
@@ -48,24 +44,40 @@ def get_data(markdown, filename):
     }
 
 
-header = open('templates/header.html').read()
-footer = open('templates/footer.html').read()
-list_header = open('templates/list_header.html').read()
-list_item = open('templates/list_item.html').read()
-list_footer = open('templates/list_footer.html').read()
-article_header = open('templates/article_header.html').read()
-article_footer = open('templates/article_footer.html').read()
+def open_file(*args, **kw):
+    kw['mode'] = kw.get('mode', 'r')
+    kw['encoding'] = kw.get('encoding', 'utf-8')
+    return codecs.open(*args, **kw)
+
+
+def read_file(*args, **kw):
+    return open_file(*args, **kw).read()
+
+
+header = read_file('templates/header.html')
+footer = read_file('templates/footer.html')
+list_header = read_file('templates/list_header.html')
+list_item = read_file('templates/list_item.html')
+list_footer = read_file('templates/list_footer.html')
+article_header = read_file('templates/article_header.html')
+article_footer = read_file('templates/article_footer.html')
 
 
 def homepage_body():
     files = (x for x in os.listdir('.') if
              x.endswith('.md') and os.path.exists(x[:-2] + 'html'))
-    filedata = (get_data(open(f).read(), f) for f in files)
+
+    filedata = []
+
+    for f in files:
+        post_body = read_file(f)
+        filedata.append(get_data(post_body, f))
+
     posts = sorted(
         filedata, cmp=lambda a, b: cmp(a['created_date'], b['created_date']))
     posts = reversed(posts)
     return (list_header +
-        ''.join(template(list_item, data) for data in posts) +
+        u''.join(template(list_item, data) for data in posts) +
         list_footer)
 
 
@@ -73,26 +85,26 @@ def assemble(path=None):
     data = {}
 
     if path:
-        contents = open(path).read()
+        contents = read_file(path)
         data = get_data(contents, path)
         data['body'] = markdown(contents)
-        data['title'] += ' | '
+        data['title'] += u' | '
 
         output_header = header + article_header
         output_footer = article_footer + footer
     else:
         data['body'] = (homepage_body() or
             '<p class="empty">There aren\'t any posts here yet!</p>')
-        data['title'] = ''
+        data['title'] = u''
 
         output_header = header
         output_footer = footer
 
     data['page_type'] = 'item' if path else 'home'
-    output = template(output_header + '{{ body }}' + output_footer, data)
+    output = template(output_header + u'{{ body }}' + output_footer, data)
 
     outpath = path.rsplit('.', 1)[0] + '.html' if path else 'index.html'
-    with open(outpath, mode='w') as outfile:
+    with open_file(outpath, mode='w', errors='xmlcharrefreplace') as outfile:
         print 'Writing to %s' % outpath
         outfile.write(output)
 
