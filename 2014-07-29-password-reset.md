@@ -18,19 +18,64 @@
         <a href="https://www.airbnb.com/"><img src="img/password-reset/airbnb.png" alt="Airbnb" title="Airbnb"></a>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/airbnb_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/airbnb_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/airbnb_6.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/airbnb_6.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/airbnb_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/airbnb_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/airbnb_7.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/airbnb_7.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/airbnb_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/airbnb_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/airbnb_8.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/airbnb_8.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/airbnb_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/airbnb_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/airbnb_9.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/airbnb_9.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/airbnb_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/airbnb_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/airbnb_10.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/airbnb_10.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
       </td>
     </tr>
     <tr>

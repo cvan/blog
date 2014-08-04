@@ -211,7 +211,15 @@ table {
   width: 100%;
 }
 
+th, td {
+  vertical-align: top
+}
+
 tr td:first-child {
+  padding-right: 1em;
+}
+
+tr + tr td {
   padding-top: 1.5em;
 }
 
@@ -220,16 +228,64 @@ tr td:first-child a {
 }
 
 th {
+  font-size: 12px;
+  line-height: 1.3;
   text-align: left;
-  vertical-align: top;
+  padding-bottom: 1.5em;
 }
 
-th + th {
+th + th,
+td + td {
   padding-left: .5em;
 }
 
+.password-reset-comparison a {
+  display: inline-block;
+  height: 100%;
+}
+
 .password-reset-comparison img {
+  display: block;
   width: 150px;
+}
+
+.password-reset-comparison .good + video,
+.password-reset-comparison .bad + video {
+  margin-top: 1em;
+}
+
+.password-reset-comparison .good {
+  color: green;
+}
+
+.password-reset-comparison .bad {
+  color: red;
+}
+
+.password-reset-comparison .good:before,
+.password-reset-comparison .bad:before {
+  border-radius: 30px;
+  color: #fff;
+  display: inline-block;
+  font-size: 8px;
+  height: 15px;
+  line-height: 15px;
+  margin-right: .75em;
+  position: relative;
+  text-align: center;
+  top: -1px;
+  vertical-align: middle;
+  width: 15px;
+}
+
+.password-reset-comparison .good:before {
+  background: green;
+  content: "✔";
+}
+
+.password-reset-comparison .bad::before {
+  background: red;
+  content: "✗";
 }
 
 @media screen and (max-width: 1000px) {
