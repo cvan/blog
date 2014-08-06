@@ -283,19 +283,39 @@
         <a href="https://www.pinterest.com/login/"><img src="img/password-reset/pinterest.png" alt="Pinterest" title="Pinterest"></a>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/pinterest_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/pinterest_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/pinterest_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/pinterest_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/pinterest_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/pinterest_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/pinterest_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/pinterest_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/pinterest_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/pinterest_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
       </td>
     </tr>
     <tr>
