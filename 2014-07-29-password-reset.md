@@ -243,19 +243,39 @@
         <a href="https://www.kickstarter.com/login"><img src="img/password-reset/kickstarter.png" alt="Kickstarter" title="Kickstarter"></a>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/kickstarter_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/kickstarter_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/kickstarter_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/kickstarter_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/kickstarter_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/kickstarter_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/kickstarter_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/kickstarter_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/kickstarter_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/kickstarter_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
       </td>
     </tr>
     <tr>
