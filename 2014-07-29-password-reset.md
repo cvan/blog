@@ -318,26 +318,48 @@
         <span class="good">Good</span>
       </td>
     </tr>
+    <!--
     <tr>
       <td>
         <a href="https://www.tumblr.com/login"><img src="img/password-reset/tumblr.png" alt="Tumblr" title="Tumblr"></a>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/tumblr_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/tumblr_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/tumblr_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/tumblr_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/tumblr_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/tumblr_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/tumblr_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/tumblr_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/tumblr_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/tumblr_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
       </td>
     </tr>
+    -->
     <tr>
       <td>
         <a href="https://twitter.com/"><img src="img/password-reset/twitter.png" alt="Twitter" title="Twitter"></a>
