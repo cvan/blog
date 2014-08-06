@@ -115,7 +115,7 @@
           <source src="../password-reset-screencasts/screencasts/amazon_5.webm" type='video/webm;codecs="vp8, vorbis"'>
           <source src="../password-reset-screencasts/screencasts/amazon_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
-        <span class="bad">Bad</span>
+        <span class="good">Good</span>
       </td>
     </tr>
     <tr>
@@ -155,7 +155,7 @@
           <source src="../password-reset-screencasts/screencasts/facebook_5.webm" type='video/webm;codecs="vp8, vorbis"'>
           <source src="../password-reset-screencasts/screencasts/facebook_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
-        <span class="bad">Bad</span>
+        <span class="good">Good</span>
       </td>
     </tr>
     <tr>
@@ -203,19 +203,39 @@
         <a href="https://accounts.google.com/ServiceLogin"><img src="img/password-reset/google.png" alt="Google" title="Google"></a>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/google_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/google_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/google_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/google_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/google_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/google_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/google_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/google_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
       </td>
       <td>
-
+        <video controls width="100%">
+          <source src="../password-reset-screencasts/screencasts/google_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="../password-reset-screencasts/screencasts/google_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
       </td>
     </tr>
     <tr>
