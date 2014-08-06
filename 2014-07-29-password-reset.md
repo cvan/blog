@@ -280,26 +280,6 @@
     </tr>
     <tr>
       <td>
-        <a href="https://www.linkedin.com/"><img src="img/password-reset/linkedin.png" alt="LinkedIn" title="LinkedIn"></a>
-      </td>
-      <td>
-
-      </td>
-      <td>
-
-      </td>
-      <td>
-
-      </td>
-      <td>
-
-      </td>
-      <td>
-
-      </td>
-    </tr>
-    <tr>
-      <td>
         <a href="https://www.pinterest.com/login/"><img src="img/password-reset/pinterest.png" alt="Pinterest" title="Pinterest"></a>
       </td>
       <td>
