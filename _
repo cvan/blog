@@ -6,7 +6,7 @@ import os
 import re
 import sys
 
-from markdown import markdown as md
+from markdown import markdown
 
 
 def template(raw, values):
@@ -16,13 +16,9 @@ def template(raw, values):
     return re.sub(r'\{\{ ?([a-zA-Z_]+) ?\}\}', replace, raw)
 
 
-def markdown(text):
-    return md(text)
-
-
-def get_data(markdown, filename):
+def get_data(content, filename):
     title = filename
-    title_matches = re.search('# .+', markdown)
+    title_matches = re.search('# .+', content)
     if title_matches:
         title = title_matches.group(0)[2:]
     elif filename.endswith(('.markdown', '.md')):
