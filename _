@@ -28,6 +28,12 @@ def get_data(content, filename):
             x[0].upper() + x[1:] for i, x in enumerate(title.split(' ')) if
             x.lower() not in ('a', 'of', 'the') or not i)
 
+    is_draft = False
+
+    if filename.startswith('_'):
+        filename = filename[1:]  # Strip `_` from filename.
+        is_draft = True
+
     year, month, date = map(int, filename.split('-')[:3])
     created = datetime.datetime(year, month, date)
 
@@ -37,6 +43,8 @@ def get_data(content, filename):
                                                .lstrip('0'),
         'created_date': created.strftime('%a %b %d %H:%M:%S %Y'),
         'url': '%s.html' % filename.rsplit('.', 1)[0],
+        'draft': (u'<span class="draft" title="EXCLUSIVE! A sneak peek behind '
+            'the scenes!">Draft</span>' if is_draft else '')
     }
 
 
@@ -101,7 +109,7 @@ def assemble(path=None):
     data['page_type'] = 'item' if path else 'home'
     output = template(output_header + u'{{ body }}' + output_footer, data)
 
-    outpath = path.rsplit('.', 1)[0] + '.html' if path else 'index.html'
+    outpath = data['url'] if path else 'index.html'
     with open_file(outpath, mode='w', errors='xmlcharrefreplace') as outfile:
         print 'Writing to %s' % outpath
         outfile.write(output)

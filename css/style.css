@@ -97,7 +97,6 @@ a:active, a:active .link {
 
 time {
   color: #999;
-  display: block;
   font-size: 14px;
   font-weight: 400;
 }
@@ -237,6 +236,17 @@ th {
 th + th,
 td + td {
   padding-left: .5em;
+}
+
+.draft {
+  background: salmon;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  margin-left: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 5px 10px;
 }
 
 .password-reset-comparison a {
