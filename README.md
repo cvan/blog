@@ -37,4 +37,8 @@ To rebuild on the fly the `.html` files (and `index.html`) every time a `.md` fi
 
         _ 2014-07-04-post.md
 
+    Or a draft:
+
+        _ _2014-07-04-draft.md
+
 3. Publish.
