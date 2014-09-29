@@ -390,7 +390,7 @@ I then used [ffmpeg](https://github.com/cvan/password-reset-screencasts/blob/17b
 
 Saved the best for first. Anything I entered in the email field was copied into the email field for the Password Reset form. As it should be.
 
-From the Password Reset screen, when I provided a valid email, I was redirected to [`/login?email=legit%40email.biz`](https://www.airbnb.com/login?email=legit%40email.biz). Using a querystring parameter, my email was prefilled. Fantastic.
+From the Password Reset screen, when I provided a valid email, I was redirected to [`/login?email=legit%40email.biz`](https://www.airbnb.com/login?email=legit%40email.biz). Using a query-string parameter, my email was prefilled. Fantastic.
 
 #### ☹ Bad
 
@@ -631,7 +631,7 @@ How's it work?
 
 It hijacks the click and sets `window.location.href` to `https://twitter.com/account/begin_password_reset?account_identifier=email@domain.com`
 
-Clicking on "Forgot password?" appends the email as a querystring parameter to the link before taking you to the Forgot Password page.
+Clicking on "Forgot password?" appends the email as a query-string parameter to the link before taking you to the Forgot Password page.
 
 https://twitter.com/account/begin_password_reset?account_identifier=legit@email.biz
 
