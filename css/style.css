@@ -238,6 +238,11 @@ td + td {
   padding-left: .5em;
 }
 
+.post img {
+  display: block;
+  width: 100%;
+}
+
 .draft {
   background: salmon;
   border-radius: 3px;

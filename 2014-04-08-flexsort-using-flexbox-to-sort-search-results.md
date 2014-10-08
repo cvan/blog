@@ -14,7 +14,7 @@ And there you have it! Flexsort: the ability to render sorted data without havin
 
 This is a basic, no-frills example of sorting ordered data using flexsort.
 
-[Try out the demo.](http://cvan.github.io/flexbox-sort)
+[<big>__Try out the demo.__</big><br><br>![Screenshot of flexbox-sort demo](img/flexbox-sort/flexbox-sort-1.png "Screenshot of flexbox-sort demo")](https://cvan.io/flexbox-sort/)
 
 ## Getting fancy
 
