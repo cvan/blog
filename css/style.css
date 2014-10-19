@@ -112,57 +112,6 @@ main {
   text-decoration: none;
 }
 
-.title {
-  display: inline-block;
-  margin-bottom: 2em;
-}
-
-.title a {
-  color: #0d9;
-}
-
-.title a:hover {
-  color: #000;
-}
-
-.header a.extra {
-  color: #aaa;
-  display: none;
-}
-
-.header a.extra:hover {
-  border-bottom-color: #eee;
-  color: #000;
-}
-
-.footer {
-  border-top: 3px solid #eee;
-  color: #666;
-  font-size: 80%;
-  margin-top: 2em;
-  padding-top: 2em;
-}
-
-.footer .contact a {
-  color: #999;
-  display: block;
-  padding-top: .5em;
-}
-
-.footer .contact a:hover {
-  color: #333;
-}
-
-.footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.footer .rss img {
-  border: 0;
-}
-
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
