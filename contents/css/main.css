@@ -153,14 +153,14 @@ h1 a:hover {
 
 .header .author {
   color: #666;
-  font: 400 12px/1 halant, sans-serif;
-  text-rendering: auto;
+  font-size: 12px;
+  font-weight: 400;
   text-align: center;
+  text-rendering: auto;
 }
 
 .header .author a {
   color: #666;
-  padding-bottom: 0;
 }
 
 .header .author a:hover {
@@ -169,8 +169,8 @@ h1 a:hover {
 
 .header .description {
   font-size: 1.2em;
+  margin-top: -.3em;
   text-align: center;
-  margin-top: -0.3em;
 }
 
 /* article */
