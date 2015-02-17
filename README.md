@@ -3,42 +3,33 @@
 This is cvan's blog.
 
 
-## Installation
+## Installing
 
-You should use [`pip`](https://pypi.python.org/pypi/pip). If you don't have that installed, do that now:
+1. Install the Node dependencies:
 
-    sudo easy_install pip
+	npm install
 
-Now to install Markdown:
+2. Install [Wintersmith](https://github.com/jnordberg/wintersmith) globally (for easier CLI invocation):
 
-    # Install gulp globally.
-    npm install -g gulp
-
-    # Install Python dependencies (i.e., Markdown).
-    pip install -r requirements.txt
+    npm install -g wintersmith
 
 
 ## Composing
 
-To rebuild on the fly the `.html` files (and `index.html`) every time a `.md` file is saved, run this command:
+Wintersmith provides a local server that can be used during development to see changes on the fly:
 
-    gulp
+    wintersmith preview
 
-1. Place a Markdown (`.md`) file in the `drafts` directory.
-2. Compose.
-3. Save.
-4. Open the post's corresponding `.html` file to preview the post.
+1. Create a new directory in the `contents/articles` directory.
+2. Create a Markdown file called `index.md`.
+3. Compose.
+4. You can preview the post: http://localhost:8080/articles/<my-article-slug>/
 
 
 ## Publishing
 
-1. Move the Markdown file from the `drafts` directory to the root directory.
-2. Then to generate a static HTML file (e.g., `2014-07-04-post.html` for `2014-07-04-post.md`):
+1. Generate the static content:
 
-        _ 2014-07-04-post.md
+	    wintersmith build
 
-    Or a draft:
-
-        _ _2014-07-04-draft.md
-
-3. Publish.
+2. Publish that directory somewhere (you could put it in the GitHub Pages branch - or in a separate branch with a Webhook to automatically deploy to S3).
