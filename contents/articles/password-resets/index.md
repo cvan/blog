@@ -44,61 +44,61 @@ I then used [ffmpeg](https://github.com/cvan/password-reset-screencasts/blob/17b
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_1.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_6.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_6.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_6.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_6.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_2.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_7.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_7.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_7.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_7.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_3.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_8.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_8.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_8.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_8.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_4.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_9.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_9.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_9.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_9.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_5.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_10.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_10.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_10.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_10.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
       </td>
@@ -109,36 +109,36 @@ I then used [ffmpeg](https://github.com/cvan/password-reset-screencasts/blob/17b
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_1.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_2.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_3.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_4.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_5.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
       </td>
@@ -149,36 +149,36 @@ I then used [ffmpeg](https://github.com/cvan/password-reset-screencasts/blob/17b
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_1.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_2.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_3.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_4.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_5.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
       </td>
@@ -189,36 +189,36 @@ I then used [ffmpeg](https://github.com/cvan/password-reset-screencasts/blob/17b
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_1.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_2.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_3.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Good</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_4.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_5.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
@@ -229,36 +229,36 @@ I then used [ffmpeg](https://github.com/cvan/password-reset-screencasts/blob/17b
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_1.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_2.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_3.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_4.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_5.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
       </td>
@@ -269,36 +269,36 @@ I then used [ffmpeg](https://github.com/cvan/password-reset-screencasts/blob/17b
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_1.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_2.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_3.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_4.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_5.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
       </td>
@@ -309,36 +309,36 @@ I then used [ffmpeg](https://github.com/cvan/password-reset-screencasts/blob/17b
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_1.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_2.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_3.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_4.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_5.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
       </td>
@@ -349,36 +349,36 @@ I then used [ffmpeg](https://github.com/cvan/password-reset-screencasts/blob/17b
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_1.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_2.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_3.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_4.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="bad">Bad</span>
       </td>
       <td>
         <video controls width="100%">
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_5.webm" type='video/webm;codecs="vp8, vorbis"'>
-          <source src="http://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <span class="good">Good</span>
       </td>
