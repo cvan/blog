@@ -32,7 +32,7 @@ Wintersmith provides a local server that can be used during development to see c
 
         wintersmith build
 
-2. Publish that directory somewhere (you could put it in the GitHub Pages branch - or in a separate branch with a Webhook to automatically deploy to S3).
+2. Publish that directory somewhere. You could put it in the GitHub Pages branch - or in a separate branch with a Webhook to automatically deploy to Amazon S3 or somewhere. (I have a command I run: `npm run publish`.)
 
 
 ## Advanced Local Development
