@@ -4,7 +4,7 @@
 importScripts('/js/serviceworker-cache-polyfill.js');
 
 var CACHE_NAME = 'cvan-blog';
-var CACHE_VERSION = 1;
+var CACHE_VERSION = 2;
 var CACHE_KEY = CACHE_NAME + '-v' + CACHE_VERSION;
 
 
