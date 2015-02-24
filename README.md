@@ -7,11 +7,11 @@ This is cvan's blog.
 
 1. Install the Node dependencies:
 
-    npm install
+        npm install
 
 2. Install [Wintersmith](https://github.com/jnordberg/wintersmith) globally (for easier CLI invocation):
 
-    npm install -g wintersmith
+        npm install -g wintersmith
 
 
 ## Composing
@@ -23,7 +23,7 @@ Wintersmith provides a local server that can be used during development to see c
 1. Create a new directory in the `contents/articles` directory.
 2. Create a Markdown file called `index.md`.
 3. Compose.
-4. You can preview the post: http://localhost:8080/articles/<my-article-slug>/
+4. You can then preview the post: `http://localhost:8080/articles/<my-article-slug>/`
 
 
 ## Publishing
@@ -32,7 +32,9 @@ Wintersmith provides a local server that can be used during development to see c
 
         wintersmith build
 
-2. Publish that directory somewhere. You could put it in the GitHub Pages branch - or in a separate branch with a Webhook to automatically deploy to Amazon S3 or somewhere. (I have a command I run: `npm run publish`.)
+2. Publish that directory somewhere. You could put it in the GitHub Pages branch - or in a separate branch with a Webhook to automatically deploy to Amazon S3 or somewhere. I have a command I run:
+
+        npm run publish
 
 
 ## Advanced Local Development
