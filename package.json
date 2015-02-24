@@ -12,6 +12,6 @@
     "url": "git://github.com/cvan/blog.git"
   },
   "scripts": {
-    "publish": "git checkout master && git pull && sed -e 's/\"url\":.*$/\"url\": \"https:\\/\\/blog.cvan.io\",/g' config.json > config_prod.json && wintersmith build --config config_prod.json && rm -f config_prod.json && git checkout gh-pages && cp -R build/ . && rm -rfv build/ CNAME && echo 'blog.cvan.io' > CNAME && git add . && git commit -m 'update site' && git push origin head && open http://blog.cvan.io && git checkout -"
+    "publish": "git checkout master && git pull && sed -e 's/\"url\":.*$/\"url\": \"https:\\/\\/blog.cvan.io\",/g' config.json > config_prod.json && wintersmith build --config config_prod.json && rm -f config_prod.json && git checkout gh-pages && cp -R build/ . && rm -rfv build/ CNAME && echo 'blog.cvan.io' > CNAME && git add . && git commit -m 'update site' && git push origin head && open https://blog.cvan.io && git checkout -"
   }
 }
