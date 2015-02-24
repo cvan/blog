@@ -7,7 +7,7 @@ This is cvan's blog.
 
 1. Install the Node dependencies:
 
-	npm install
+    npm install
 
 2. Install [Wintersmith](https://github.com/jnordberg/wintersmith) globally (for easier CLI invocation):
 
@@ -30,7 +30,7 @@ Wintersmith provides a local server that can be used during development to see c
 
 1. Generate the static content:
 
-	    wintersmith build
+        wintersmith build
 
 2. Publish that directory somewhere (you could put it in the GitHub Pages branch - or in a separate branch with a Webhook to automatically deploy to S3).
 
