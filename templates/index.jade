@@ -6,7 +6,7 @@ block content
     article.article.intro
       header
         p.date
-          time= moment.utc(article.date).format('DD MMMM YYYY')
+          time= moment.utc(article.date).format('D MMMM YYYY')
         h2
           a(href=article.url)= article.title
       section.content

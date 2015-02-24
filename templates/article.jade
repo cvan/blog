@@ -14,7 +14,7 @@ block header
     | #{ "Written by " }
     mixin author(page.metadata.author)
     | #{ " on " }
-    time= moment.utc(page.date).format('DD MMMM YYYY')
+    time= moment.utc(page.date).format('D MMMM YYYY')
 
 block content
   article.article
