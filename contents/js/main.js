@@ -1,11 +1,7 @@
 (function () {
 
-// Open external links in new tabs.
-Array.prototype.slice.call(
-  document.querySelectorAll('[href^="//"], [href*="://"]')
-).forEach(function (link) {
-  link.setAttribute('target', '_blank');
-});
+// Start Service Worker.
+handleSW();
 
 
 // Google Analytics.
@@ -28,9 +24,42 @@ ga('create', 'UA-55541020-1', 'auto');
 ga('send', 'pageview');
 
 
-// Service Worker.
-handleSW();
+requestAnimationFrame(function () {
+  // Defer loading of Google web fonts used for copy and code samples.
+  var link;
+  [
+    'https://fonts.googleapis.com/css?family=Mate|Anonymous+Pro:400,700,400italic,700italic'
+  ].forEach(function (url) {
+    link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = url;
+    document.head.appendChild(link);
+  });
 
+  // Defer loading of web font used for headings.
+  var style = document.createElement('style');
+  style.innerHTML = '@font-face {\
+    font-family: akzidenz-grotesk-webfont;\
+    font-style: normal;\
+    font-weight: 500;\
+    src: local("Akzidenz-Grotesk BQ Medium"),\
+         url("/fonts/akzidenzgrotesk-medium-webfont.woff") format("woff"),\
+         url("/fonts/akzidenzgrotesk-medium-webfont.ttf") format("truetype"),\
+         url("/fonts/akzidenzgrotesk-medium-webfont.svg#akzidenz-grotesk_bqmedium") format("svg");\
+  }';
+  document.head.appendChild(style);
+});
+
+
+// Open external links in new tabs.
+Array.prototype.slice.call(
+  document.querySelectorAll('[href^="//"], [href*="://"]')
+).forEach(function (link) {
+  link.setAttribute('target', '_blank');
+});
+
+
+// Service Worker meat.
 function handleSW() {
   if (!('serviceWorker' in navigator)) {
     console.warn('Service Workers are not supported in your browser');

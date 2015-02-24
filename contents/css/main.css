@@ -1,13 +1,3 @@
-@font-face {
-  font-family: akzidenz-grotesk-webfont;
-  src: local('Akzidenz-Grotesk BQ Medium'),
-       url('/fonts/akzidenzgrotesk-medium-webfont.woff') format('woff'),
-       url('/fonts/akzidenzgrotesk-medium-webfont.ttf') format('truetype'),
-       url('/fonts/akzidenzgrotesk-medium-webfont.svg#akzidenz-grotesk_bqmedium') format('svg');
-  font-weight: 500;
-  font-style: normal;
-}
-
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
