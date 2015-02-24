@@ -5,7 +5,7 @@ date: 2014-07-29
 template: article.jade
 ---
 
-When I type my email/username in a log-in form, and realise I've forgetten my password, I expect the Password Reset form to preserve my email/username.
+When I type my email/username in a log-in form, and realise I've forgotten my password, I expect the Password Reset form to preserve my email/username.
 
 I hypothesised that most major sites suffer from a bad case of ICRS on their Password Reset forms. I conducted an experiment to prove my hypothesis and wrote this blog post to publish my findings (and to increase awareness of this epidemic).
 
@@ -550,7 +550,7 @@ How can we fix this?
 
 Also what happens if I forget my email/username? There are no additional links to get support.
 
-On a different note, on the [Password Reset page](https://github.com/password_reset), I saw this error mesage when I provided an invalid email address:
+On a different note, on the [Password Reset page](https://github.com/password_reset), I saw this error message when I provided an invalid email address:
 
 > Can't find that email, sorry.
 
