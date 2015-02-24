@@ -3,5 +3,6 @@
 *npm-debug.log
 .*swp
 .DS_Store
-node_modules/
 build/
+config_prod.json
+node_modules/
