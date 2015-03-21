@@ -6,12 +6,26 @@
 }
 
 body {
+  background: #07dde2 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAOklEQVQYV2NkQID/SGwYkxHEABMMDAwwBTA+TBFInBFZEboCuMEDqAjZI1gdjuxD5JBACQIsQYQQAgBy5woK4/RmNAAAAABJRU5ErkJggg==);
+  background-size: 5px 5px;
   color: #444;
   font-family: Mate, Charter, serif;
   font-size: 21px;
   line-height: 1.52;
-  background-color: #f8f8f8;
   text-rendering: optimizeLegibility;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrap {
+  background-color: #fff;
+  margin: 0 auto;
+  min-height: 100%;
+  overflow: hidden;
+  padding: 0 2em;
+  width: 38em;
 }
 
 ::selection {
@@ -181,7 +195,6 @@ h1 a:hover {
 }
 
 .article header .date time {
-  background-color: #f8f8f8;
   padding-right: .6em;
 }
 
