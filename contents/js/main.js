@@ -53,7 +53,7 @@ requestAnimationFrame(function () {
 
 // Open external links in new tabs.
 Array.prototype.slice.call(
-  document.querySelectorAll('[href^="//"], [href*="://"]')
+  document.querySelectorAll('.content [href^="//"], .content [href*="://"]')
 ).forEach(function (link) {
   link.setAttribute('target', '_blank');
 });
