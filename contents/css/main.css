@@ -518,6 +518,20 @@ td + td {
   content: "✗";
 }
 
+.c:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 .nav {
   margin: 1.5em 0;
+}
+
+.nav a:first-child {
+  float: left;
+}
+
+.nav a:last-child {
+  float: right;
 }
