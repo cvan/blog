@@ -7,9 +7,9 @@ template: article.jade
 
 When I type my email/username in a log-in form, and realise I've forgotten my password, I expect the Password Reset form to preserve my email/username.
 
-I hypothesised that most major sites suffer from a bad case of ICRS on their Password Reset forms. I conducted an experiment to prove my hypothesis and wrote this blog post to publish my findings (and to increase awareness of this epidemic).
-
 <span class="more"></span>
+
+I hypothesised that most major sites suffer from a bad case of ICRS on their Password Reset forms. I conducted an experiment to prove my hypothesis and wrote this blog post to publish my findings (and to increase awareness of this epidemic).
 
 I wrote [CasperJS scripts](https://github.com/cvan/password-reset-screencasts/tree/master/scripts) tailored to the sites' Password Reset flows. Taking screenshots along the way, I automated the following user flows:
 
