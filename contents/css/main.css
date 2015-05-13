@@ -115,9 +115,20 @@ li {
 }
 
 blockquote {
+  border-left: 5px solid #f1f1f1;
   font-style: italic;
   margin: 1.2em 3em;
-  padding-left: 1em;
+  padding-left: 3em;
+  position: relative;
+}
+
+blockquote::before {
+  color: #ddd;
+  content: '\201C';
+  font: 600 64px/1 serif;
+  position: absolute;
+  left: .25em;
+  top: 0;
 }
 
 hr {
