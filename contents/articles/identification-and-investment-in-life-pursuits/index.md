@@ -1,5 +1,5 @@
 ---
-title: "Investment and Identification in Life Choices"
+title: "Investment and Identification in Life Pursuits"
 author: cvan
 date: 2015-01-24
 template: article.jade
