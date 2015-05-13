@@ -1,5 +1,5 @@
 ---
-title: "Identification and Pleasure in Watching Cinema"
+title: "Pretension and Pleasure in Watching Cinema"
 author: cvan
 date: 2015-01-24
 template: article.jade
