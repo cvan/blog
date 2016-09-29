@@ -1,13 +1,15 @@
-
 extends layout
 
 block append vars
-  - bodyclass = 'article-detail'
+  - bodyclass = "article-detail"
 
 block prepend title
   | #{ page.title + " | "}
 
 block header
+  header.nav.c
+    a(href=contents.index.url) « Return to blog
+
   include author
   h1= page.title
   p.author

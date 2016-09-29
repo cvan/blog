@@ -1,48 +1,58 @@
 # blog
 
-This is cvan's blog.
+This is [cvan's blog](https://blog.cvan.io/).
 
 
 ## Installing
 
-1. Install the Node dependencies:
+Install the Node dependencies:
 
-        npm install
-
-2. Install [Wintersmith](https://github.com/jnordberg/wintersmith) globally (for easier CLI invocation):
-
-        npm install -g wintersmith
-
+```sh
+npm install
+```
 
 ## Composing
 
 Wintersmith provides a local server that can be used during development to see changes on the fly:
 
-    wintersmith preview
+```sh
+npm start
+``
 
-1. Create a new directory in the `contents/articles` directory.
-2. Create a Markdown file called `index.md`.
-3. Compose.
-4. You can then preview the post: `http://localhost:8080/articles/<my-article-slug>/`
+1. Load [`https://localhost:8080/`](https://localhost:8080/).
+2. Create a new directory in the `contents/articles` directory.
+3. Create a Markdown file called `index.md`.
+4. Write an article.
+5. You can then preview the post: [`http://localhost:8080/articles/<my-article-slug>/`](`http://localhost:8080/articles/<my-article-slug>/`)
 
+
+## Previewing
+
+To generate the static content:
+
+```sh
+npm run build
+```
 
 ## Publishing
 
-1. Generate the static content:
+To deploy the static content to [production](https://blog.cvan.io/):
 
-        wintersmith build
+```sh
+npm run deploy
+```
 
-2. Publish that directory somewhere. You could put it in the GitHub Pages branch - or in a separate branch with a Webhook to automatically deploy to Amazon S3 or somewhere. I have a command I run:
+## Advanced local development
 
-        npm run publish
+To temporarily disable Service Worker caching (for ease of testing), run this from the Console of your browser's Developer Tools:
 
+```js
+localStorage.disable_sw = '1';
+```
 
-## Advanced Local Development
+To enable Service Worker caching, run this from your browser console:
 
-To temporarily disable Service Worker caching (for ease of testing), run this from your browser console:
+```js
+delete localStorage.disable_sw;
+```
 
-    localStorage.disable_sw = '1'
-
-To resume Service Worker caching, run this from your browser console:
-
-    delete localStorage.disable_sw

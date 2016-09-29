@@ -1,7 +1,7 @@
 (function () {
 
 // Start Service Worker.
-handleSW();
+// handleSW();
 
 
 // Google Analytics.
