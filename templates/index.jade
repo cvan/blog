@@ -1,5 +1,7 @@
 block vars
-  - var bodyclass = "home"
+  - bodyclass = "home"
+  - prevPage = "1"
+  - nextPage = "1"
 
 extends layout
 
@@ -12,17 +14,8 @@ block content
       h2.article__heading
         a(href=article.url)= article.title
       section.content
-        if article.intro.length > 0
+        if article.intro.length
           | !{ typogr(article.intro).typogrify() }
         if article.hasMore
           p.more
-            a(href=article.url) more
-
-block prepend footer
-  div.nav.c
-    if prevPage
-      a(href=prevPage.url) « Newer entries
-    else
-      a(href='/archive/') « Archive
-    if nextPage
-      a(href=nextPage.url) Older entries »
+            a(href=article.url) Read more

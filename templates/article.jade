@@ -6,22 +6,16 @@ block append vars
 block prepend title
   | #{ page.title + " | "}
 
-block header
-  header.nav.c
-    a(href=contents.index.url) « Return to blog
-
-  include author
-  h1= page.title
-  p.author
-    | #{ "Written by " }
-    mixin author(page.metadata.author)
-    | #{ " on " }
-    time= moment.utc(page.date).format('D MMMM YYYY')
+block page_title
+  header.page-title
+    include author
+    h1= page.title
+    p.author
+      | #{ "Written by " }
+      mixin author(page.metadata.author)
+      | #{ " on " }
+      time= moment.utc(page.date).format('D MMMM YYYY')
 
 block content
   article.article
     section.content!= typogr(page.html).typogrify()
-
-block prepend footer
-  div.nav.c
-    a(href=contents.index.url) « Return to blog
