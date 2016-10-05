@@ -1,0 +1,8 @@
+{
+  "use": ["autoprefixer"],
+  "input": "contents/css/main.css",
+  "output": "_build/css/main.css",
+  "autoprefixer": {
+    "browsers": "last 20 versions"
+  }
+}

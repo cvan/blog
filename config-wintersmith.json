@@ -4,6 +4,9 @@
     "name": "cvan’s blog",
     "owner": "cvan"
   },
+  "output": "./_build/",
+  "contents": "./contents/",
+  "templates": "./templates/",
   "plugins": [
     "./plugins/paginator.coffee"
   ],

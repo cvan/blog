@@ -1,8 +1,8 @@
 *.deflate
 *.gz*
-*npm-debug.log
+*npm-debug*.log
 .*swp
 .DS_Store
-build/
-config_prod.json
+_build*/
+config-wintersmith-prod.json
 node_modules/

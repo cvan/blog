@@ -41,17 +41,3 @@ To deploy the static content to [production](https://blog.cvan.io/):
 ```sh
 npm run deploy
 ```
-
-## Advanced local development
-
-To temporarily disable Service Worker caching (for ease of testing), run this from the Console of your browser's Developer Tools:
-
-```js
-localStorage.disable_sw = '1';
-```
-
-To enable Service Worker caching, run this from your browser console:
-
-```js
-delete localStorage.disable_sw;
-```
