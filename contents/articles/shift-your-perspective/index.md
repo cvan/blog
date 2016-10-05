@@ -25,4 +25,4 @@ There's always a start. A start in shifting your perspective can be the one new 
 
 Start now. And let yourself finish.
 
-
+Change your environment. Change your equipment. Change your perspective.
