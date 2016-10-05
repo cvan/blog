@@ -20,7 +20,9 @@ html(lang='en')
           block related_header
             header.related.related-header.c
               if bodyclass != "home"
-                a(href=contents.index.url).related-link.related-centre-link <span class="finger finger-left">☚</span> Return to blog
+                a(href=contents.index.url).related-link.related-centre-link
+                  span.finger.finger-left ☚
+                  | Return to blog
           block page_title
             header.page-title
               h1
@@ -35,21 +37,29 @@ html(lang='en')
           block footer
           block related_footer
             div.related.related-footer.c
-              if bodyclass != "archive"
-                a(href='/archive/').related-link.related-centre-link
-                  span.link-inner
-                    span.finger.finger-right ☛ Archive span.finger.finger-left ☚
-              else
-                if prevPage
-                  a(href=prevPage.url).related-link.related-left-link
-                    span.link-inner
-                      span.finger.finger-left ☚ Older entries
-                if nextPage
-                  a(href=nextPage.url).related-link.related-right-link
-                    span.link-inner
-                      Newer entries span.finger.finger-right ☛
-                if prevPage && nextPage && bodyclass != "home"
-                  if bodyclass = "archive"
+              ul.related-list
+                li.related-item
+                  if nextPage
+                    a(href=nextPage.url).related-link.related-left-link
+                      span.link-inner
+                        span.finger.finger-left ☚
+                        | Older entries
+                li.related-item
+                  if bodyclass == "archive"
                     a(href=contents.index.url).related-link.related-left-link
-                      span.finger.finger-right ☛ Return to blog span.finger.finger-left ☚
+                      span.finger.finger-right.finger-right-inward ☛
+                      | Return to blog
+                      span.finger.finger-left.finger-left-inward ☚
+                  else
+                    a(href='/archive/').related-link.related-centre-link
+                      span.link-inner
+                        span.finger.finger-right.finger-right-inward ☛
+                        | Archive
+                        span.finger.finger-left.finger-left-inward ☚
+                li.related-item
+                  if prevPage
+                    a(href=prevPage.url).related-link.related-right-link
+                      span.link-inner
+                        | Newer entries
+                        span.finger.finger-right ☛
     script(src=locals.url + '/js/main.js')

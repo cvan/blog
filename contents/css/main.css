@@ -531,12 +531,6 @@ td + td {
   display: block;
 }
 
-.related {
-  display: flex;
-  font-size: 1rem;
-  text-align: center;
-}
-
 .related-header {
   margin-bottom: 1.5rem;
 }
@@ -545,35 +539,58 @@ td + td {
   margin-top: 3rem;
 }
 
-.related-link .link-inner {
+.related-list {
+  align-items: stretch;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+}
+
+.related-item {
   flex: 1 1 0;
 }
 
-.related-left-link:only-child,
+.related-item {
+  text-align: center;
+}
+
+.related-item:first-child {
+  text-align: left;
+}
+
+.related-item:last-child {
+  text-align: right;
+}
+
+.related-link {
+  font-size: 1rem;
+}
+
+
+/*.related-left-link:only-child,
 .related-right-link ~ .related-link:last-child {
-  float: left;
   margin-right: 1.5ch;
 }
 
 .related-right-link:only-child,
 .related-left-link ~ .related-link:last-child {
-  float: right;
   margin-left: 1.5ch;
 }
-
-.related-centre-link:only-child,
-.related-left-link ~ .related-link:last-child {
-  float: right;
-}
+*/
 
 .finger-left {
   padding-right: 1ch;
 }
 
-.finger-centre {
-  padding: 0 1ch;
-}
-
 .finger-right {
   padding-left: 1ch;
+}
+
+.finger-left-inward {
+  padding: 0 0 0 1ch;
+}
+
+.finger-right-inward {
+  padding: 0 1ch 0 0;
 }

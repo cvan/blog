@@ -1,6 +1,6 @@
 extends layout
 
-block append vars
+block vars
   - bodyclass = "archive"
 
 block prepend title
@@ -18,7 +18,7 @@ block content
     h2 Archive
     ul.archive-list
       - var yearsK = _.chain(archives).keys().reverse().value()
-      - for(var year in yearsK)
+      - for (var year in yearsK)
         - months = archives[yearsK[year]]
         li
           h3.archive-year-heading=yearsK[year]

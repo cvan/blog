@@ -1,9 +1,7 @@
-block vars
-  - bodyclass = "home"
-  - prevPage = "1"
-  - nextPage = "1"
-
 extends layout
+
+block append vars
+  - bodyclass = "home"
 
 block content
   include author
