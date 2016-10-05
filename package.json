@@ -8,12 +8,16 @@
   },
   "scripts": {
     "start": "wintersmith preview",
+    "prebuild": "mkdirp _build/assets/css/ && postcss --use autoprefixer assets/css/style.css -d assets/css/style.css --browsers 'last 10 versions' --map --no-cascade",
     "build": "wintersmith build",
-    "predeploy": "git checkout master && git pull && sed -e 's/\"url\":.*$/\"url\": \"https:\\/\\/blog.cvan.io\",/g' config.json > config_prod.json && wintersmith build --config config_prod.json && rm -f config_prod.json && git checkout gh-pages && cp -R build/ . && rm -rfv build/ CNAME && echo 'blog.cvan.io' > CNAME && git add . && git commit -m 'update site' && git push origin head && open https://blog.cvan.io && git checkout -",
+    "predeploy": "git checkout master && git pull && sed -e 's/\"url\":.*$/\"url\": \"https:\\/\\/blog.cvan.io\",/g' config.json > config_prod.json && wintersmith build --config config_prod.json && rm -f config_prod.json && git checkout gh-pages && cp -R build/ . && rimraf build/ CNAME && echo 'blog.cvan.io' > CNAME && git commit -am 'update site' && git push origin head && open 'https://blog.cvan.io/' && git checkout -",
     "deploy": "npm run build"
   },
   "devDependencies": {
+    "autoprefixer": "^6.5.0",
+    "mkdirp": "^0.5.1",
     "moment": "^2.3.1",
+    "postcss-cli": "^2.6.0",
     "typogr": "^0.5.2",
     "underscore": "^1.4.4",
     "wintersmith": "^2.3.3"
