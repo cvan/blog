@@ -107,6 +107,7 @@ tt {
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
+.tt,
 .header time {
   display: block;
   font-size: .9rem;
