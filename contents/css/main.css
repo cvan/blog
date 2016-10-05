@@ -567,18 +567,6 @@ td + td {
   font-size: 1rem;
 }
 
-
-/*.related-left-link:only-child,
-.related-right-link ~ .related-link:last-child {
-  margin-right: 1.5ch;
-}
-
-.related-right-link:only-child,
-.related-left-link ~ .related-link:last-child {
-  margin-left: 1.5ch;
-}
-*/
-
 .finger-left {
   padding-right: 1ch;
 }
