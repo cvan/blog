@@ -13,7 +13,7 @@ npm install
 
 ## Composing
 
-Wintersmith provides a local server that can be used during development to see changes on the fly:
+[Wintersmith](http://wintersmith.io/) provides a local server that can be used during development to see changes live after you edit and save files:
 
 ```sh
 npm start
@@ -55,4 +55,3 @@ To enable Service Worker caching, run this from your browser console:
 ```js
 delete localStorage.disable_sw;
 ```
-
