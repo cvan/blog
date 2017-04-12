@@ -17,7 +17,7 @@ npm install
 
 ```sh
 npm start
-``
+```
 
 1. Load [`https://localhost:8080/`](https://localhost:8080/).
 2. Create a new directory in the `contents/articles` directory.
