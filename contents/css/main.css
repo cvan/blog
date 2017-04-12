@@ -16,7 +16,7 @@ html {
 body {
   background-color: #fff;
   color: #333;
-  font: 1.2rem/1.5 -apple-system, BlinkMacSystemFont,
+  font: 1.2rem/1.5 BlinkMacSystemFont, -apple-system,
     Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans,
     Droid Sans, Helvetica Neue, sans-serif;
