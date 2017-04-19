@@ -14,8 +14,8 @@ deploy:
   provider: pages
   local_dir: _build
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN  # Set in the https://travis-ci.org/cvan/blog/settings dashboard.
+  github_token: $GH_TOKEN  # Set in the https://travis-ci.org/cvan/blog/settings dashboard.
   on:
     branch: master
   name: Cvan-o-matic-o-tron
- 
+
