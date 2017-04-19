@@ -19,7 +19,7 @@ Am I always productive? No. And I shame myself when I'm not. I operated a web de
 
 I pride myself on my work. Historically, I've done my best work when I spend most of my energy and time _working_. Instead of doing many things poorly, I do one thing well.
 
-That's not to say I sacrifice weekends, but committed working (or what I'll call "") often bleeds into late evening nights during the week.
+That's not to say I sacrifice weekends, but committed _working_ often bleeds into late evening nights during the week.
 
 I shame myself for getting distracted with life things, which often include planning or attending trips, events, errands, and appointments.
 
@@ -31,10 +31,10 @@ It's also why most people don't stick with habits or change to do new exciting t
 
 <hr>
 
-My recent trick has been to take a full hour of lunch. And, when coworkers/friends are not there, I'll eat by myself outside whilst reading a book. Even though I could be more social and meet new folks (and, incidentally, if I'm talking to people, often I'll hear complaining), I forgo that because it helps me instill many habits I want: to not eat at my desk, to take a full hour for lunch and step away from work so I can recharge, to establish work-life boundaries, going outside on the patio so it feels like I'm not in a work environment and so the fresh air calms me, and it gives me time to actually get my life things done so I don't procrastinate).
+My recent trick has been to take a full hour of lunch. And, when coworkers/friends are not there, I'll eat by myself outside whilst reading a book. Even though I could be more social and meet new folks (and, incidentally, if I'm talking to people, often I'll hear complaining), I forgo that because it helps me instill the habits I want to develop: to avoid eating at my desk, to actually take a full hour for lunch and step away from work so I can recharge, to establish work-life _boundaries_ (not necessarily _balance_). Going outside on the patio it feels like I'm not in a work environment, and the fresh air calms me, and it gives me time to actually get my life things done.
 
 After I'm done eating, I'll use the remainder of the hour (yes, I set a timer on my smart phone) to make phone calls, send emails, book events, whatever I have on my to-do list of "life things" (usually itemised in an Evernote, index card, or GitHub issues in my private "life" repo).
 
 Such a great feeling of accomplishment knowing I got all those things out of the way. They're often things I previously procrastinated on for months. But forcing myself to not feel guilty about not working, I actually get my stuff done. And now while I'm working, I'm not shaming myself for not getting my life things done. It's very rewarding. And it eases my mind. And simplifies the number of things I have to think about - or worse, shame myself about when my mind falls into the old patterns.
 
-Lunch: Step away from the computer/television/telephone. Set an alarm and take a full hour to eat your food whilst reading a book alone and/or talk with people. When you're done eating, get several "life things" done untilt that hour is up (set a maximum of one thing per day per lunch hour, eventually working your way up to a maxmium of three things).
+**Lunch:** Step away from the computer/television/telephone. Set an alarm and take a full hour to eat your food whilst reading a book alone and/or talk with people. When you're done eating, get several "life things" done until that hour is up (set a maximum of one thing per day per lunch hour, eventually working your way up to a maximum of three things).
