@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://blog.cvan.io/css/main.css">
+    <title>Flexsort: Using Flexbox to sort search results | cvan’s blog
+    </title>
+    <link rel="alternate" href="https://blog.cvan.io/feed.xml" type="application/rss+xml">
+  </head>
+  <body class="article-detail">
+    <div class="wrap">
+      <header class="header c">
+        <div class="content-wrap">
+          <header class="related related-header c"><a href="/" class="related-link related-centre-link"><span class="finger finger-left">☚</span>Return to blog</a>
+          </header>
+          <header class="page-title">
+            <h1>Flexsort: Using Flexbox to sort search results</h1>
+            <p class="author">Written by <span class="author">cvan</span> on 
+              <time>8 April 2014</time>
+            </p>
+          </header>
+        </div>
+      </header>
+      <main id="content" class="content">
+        <div class="content-wrap">
+          <article class="article">
+            <section class="content"><p>Most sites that use search allow you to sort by a particular criterion such as price or year. When you sort by a particular criterion, most sites either synchronously load a new page or update the <span class="caps">DOM</span> right then and<span class="widont">&nbsp;</span>there.</p>
+<p><span class="more"></span></p>
+<p>With the former approach, you are wasting time and bandwidth: at least one request has to be made for the <span class="caps">HTML</span> document, not to mention all the other resources requested on that page. You can do better by becoming a true single-paged app, so that you only request new content as<span class="widont">&nbsp;</span>needed.</p>
+<p>With the latter approach, you can request from the server an <span class="caps">HTML</span> fragment or ideally <span class="caps">JSON</span> (which is used to render a template using <span class="caps">JS</span>) to replace the <span class="caps">HTML</span> of the results area. This isn’t a terrible method, but <span class="caps">DOM</span> manipulations are expensive. You could take a less naïve approach and keep in memory the <span class="caps">DOM</span> of each element and change only those elements that you need to. <a href="http://facebook.github.io/react/">Facebook’s React</a> is a framework that keeps in memory a virtual <span class="caps">DOM</span> and does a difference of the <span class="caps">HTML</span> before and after to make only the absolutely necessary <span class="caps">DOM</span><span class="widont">&nbsp;</span>manipulations.</p>
+<p>Instead of physically rearranging existing <span class="caps">DOM</span> nodes, or destroying existing nodes and re-rendering new ones, we can reorder the search results using just one <span class="caps">CSS</span> property: flexbox’s <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/order"><code>order</code></a>.</p>
+<p>And there you have it! Flexsort: the ability to render sorted data without having to reconstitute the<span class="widont">&nbsp;</span><span class="caps">DOM</span>.</p>
+<h2 id="demo">Demo</h2>
+<p>This is a basic, no-frills example of sorting ordered data using<span class="widont">&nbsp;</span>flexsort.</p>
+<p><a href="https://cvan.io/flexbox-sort/"><big><strong>Try out the demo.</strong></big><br><br><img src="/articles/flexsort-using-flexbox-to-sort-search-results/flexbox-sort-1.png" alt="Screenshot of flexbox-sort demo" title="Screenshot of flexbox-sort demo"></a></p>
+<h2 id="getting-fancy">Getting fancy</h2>
+<p>It’s you’re feeling up for it, try these at<span class="widont">&nbsp;</span>home:</p>
+<ul>
+<li>Allow a user to reverse the sort<span class="widont">&nbsp;</span>order.</li>
+<li>Instead of just basic ordering, allow results to also be filtered by simply hiding and showing the elements as needed (using the <span class="caps">CSS</span> property <code>display</code>).</li>
+<li>Implement flexsort on a massive table, allowing the rows to be sorted by clicking on a<span class="widont">&nbsp;</span>column.</li>
+<li>For improved navigation, hijack the browser history using the History <span class="caps">API</span> (i.e., <code>pushState</code>) to include a querystring in the <span class="caps">URL</span> (e.g., <code>?sort=year</code>).</li>
+<li>Handle pagination (for the bravest of the<span class="widont">&nbsp;</span>brave).</li>
+</ul>
+<h2 id="caveats">Caveats</h2>
+<p>If you’re dealing with big data (tens of thousands of rows), be careful about keeping too much <span class="caps">HTML</span> on a single<span class="widont">&nbsp;</span>page.</p>
+<p>If you copy the entire document to your clipboard, you’ll notice that the pasted text appears in the order in which the text is represented in the <span class="caps">DOM</span>, not in the visual order set by<span class="widont">&nbsp;</span>flexbox.</p>
+<p>You can still select the text content of each flexbox-ordered item — just not text that overlaps to another flexbox-ordered<span class="widont">&nbsp;</span>item.</p>
+<p>If you print the document, the visual order set by flexbox order is preserved. But why are you printing this? And why do you still own a<span class="widont">&nbsp;</span>printer?</p>
+</section>
+          </article>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="content-wrap">
+          <div class="related related-footer c">
+            <ul class="related-list">
+              <li class="related-item">
+              </li>
+              <li class="related-item"><a href="/archive/" class="related-link related-centre-link"><span class="link-inner"><span class="finger finger-right finger-right-inward">☛</span>Archive<span class="finger finger-left finger-left-inward">☚</span></span></a>
+              </li>
+              <li class="related-item">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://blog.cvan.io/js/main.js"></script>
+  </body>
+</html>

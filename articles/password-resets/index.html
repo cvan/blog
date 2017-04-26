@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://blog.cvan.io/css/main.css">
+    <title>Password Resets | cvan’s blog
+    </title>
+    <link rel="alternate" href="https://blog.cvan.io/feed.xml" type="application/rss+xml">
+  </head>
+  <body class="article-detail">
+    <div class="wrap">
+      <header class="header c">
+        <div class="content-wrap">
+          <header class="related related-header c"><a href="/" class="related-link related-centre-link"><span class="finger finger-left">☚</span>Return to blog</a>
+          </header>
+          <header class="page-title">
+            <h1>Password Resets</h1>
+            <p class="author">Written by <span class="author">cvan</span> on 
+              <time>29 July 2014</time>
+            </p>
+          </header>
+        </div>
+      </header>
+      <main id="content" class="content">
+        <div class="content-wrap">
+          <article class="article">
+            <section class="content"><p>When I type my email/username in a log-in form, and realise I’ve forgotten my password, I expect the Password Reset form to preserve my<span class="widont">&nbsp;</span>email/username.</p>
+<p><span class="more"></span></p>
+<p>I hypothesised that most major sites suffer from a bad case of <span class="caps">ICRS</span> on their Password Reset forms. I conducted an experiment to prove my hypothesis and wrote this blog post to publish my findings (and to increase awareness of this<span class="widont">&nbsp;</span>epidemic).</p>
+<p>I wrote <a href="https://github.com/cvan/password-reset-screencasts/tree/master/scripts">CasperJS scripts</a> tailored to the sites’ Password Reset flows. Taking screenshots along the way, I automated the following user<span class="widont">&nbsp;</span>flows:</p>
+<ol>
+<li>At Log In screen, provide email only, and then reset<span class="widont">&nbsp;</span>password.</li>
+<li>At Log In screen, provide email and password, and then reset<span class="widont">&nbsp;</span>password.</li>
+<li>At Log In screen, provide email only, submit the form, and then reset<span class="widont">&nbsp;</span>password.</li>
+<li>At Log In screen, provide email and password, submit the form, and then reset<span class="widont">&nbsp;</span>password.</li>
+<li>At Password Reset screen, provide a different email, and then reset<span class="widont">&nbsp;</span>password.</li>
+</ol>
+<p>I then used <a href="https://github.com/cvan/password-reset-screencasts/blob/17b7bba/Makefile#L13-L18">ffmpeg</a> to stitch together the<span class="widont">&nbsp;</span>screencasts.</p>
+<p>(Unfortunately, I had to disqualify LinkedIn and Tumblr because ratelimiting and CAPTCHAs prevented my automated tests from<span class="widont">&nbsp;</span>completing.)</p>
+<h2 id="screencasts">Screencasts</h2>
+<table class="password-reset-comparison">
+  <thead>
+    <tr>
+      <th>Site</th>
+      <th>Email only</th>
+      <th>Email + password</th>
+      <th>Email only, form submitted</th>
+      <th>Email + password, form submitted</th>
+      <th>Different email + password</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://www.airbnb.com/"><img src="airbnb.png" alt="Airbnb" title="Airbnb"></a>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_6.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_6.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_7.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_7.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_8.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_8.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_9.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_9.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_10.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_10.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.amazon.com/gp/sign-in.html"><img src="amazon.png" alt="Amazon" title="Amazon"></a>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.facebook.com/"><img src="facebook.png" alt="Facebook" title="Facebook"></a>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/login"><img src="github.png" alt="GitHub" title="GitHub"></a>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Good</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://accounts.google.com/ServiceLogin"><img src="google.png" alt="Google" title="Google"></a>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.kickstarter.com/login"><img src="kickstarter.png" alt="Kickstarter" title="Kickstarter"></a>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.pinterest.com/login/"><img src="pinterest.png" alt="Pinterest" title="Pinterest"></a>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://twitter.com/"><img src="twitter.png" alt="Twitter" title="Twitter"></a>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_1.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_1.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_2.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_2.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_3.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_3.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_4.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_4.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="bad">Bad</span>
+      </td>
+      <td>
+        <video controls width="100%">
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_5.webm" type='video/webm;codecs="vp8, vorbis"'>
+          <source src="https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_5.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <span class="good">Good</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h2 id="analysis">Analysis</h2>
+<h3 id="airbnb">Airbnb</h3>
+<p><small class="url"><a href="https://www.airbnb.com/">https://www.airbnb.com/</a></small></p>
+<h4 id="-good">☺ Good</h4>
+<p>Saved the best for first. Anything I entered in the email field was copied into the email field for the Password Reset form. As it should<span class="widont">&nbsp;</span>be.</p>
+<p>From the Password Reset screen, when I provided a valid email, I was redirected to <a href="https://www.airbnb.com/login?email=legit%40email.biz"><code>/login?email=legit%40email.biz</code></a>. Using a query-string parameter, my email was prefilled.<span class="widont">&nbsp;</span>Fantastic.</p>
+<h4 id="-bad">☹ Bad</h4>
+<p>From the <a href="https://www.airbnb.com/">homepage</a>, upon clicking “Sign Up” and “Log In” modals appeared. However, the URLs didn’t change, which means zero linkability and zero history. Upon pressing the back button, instead of a modal just disappearing and the <span class="caps">URL</span> reverting back, I was instead thrown totally out of Airbnb. This could all be remedied by using <code>history.pushState</code>. The same issue occurred when I pressed the “Forgot password?” link from the Log-In<span class="widont">&nbsp;</span>screen.</p>
+<p>Googling for <a href="https://www.google.com/search?q=site:airbnb.com%20log%20in"><code>site:airbnb.com log in</code></a> turned up a <a href="https://www.airbnb.com/login">Log-In page</a> and a <a href="https://www.airbnb.com/signup_login">Signup page</a>. And, heck, there was even a <a href="https://www.airbnb.com/forgot_password">Password Reset page</a>. These are standalone, modal-less pages that appeared to be linked to from only support pages and legacy pages that predated Airbnb’s “Belong Anywhere” redesign (July<span class="widont">&nbsp;</span>2014).</p>
+<p>The Password Reset form relied on placeholder text (“Email” with an “@” icon on the right side of the input) instead of an always-present form label. When a field was focussed, unless I had paid good attention, I forgot what the field. Select all. Backspace. Oh.<span class="widont">&nbsp;</span>Right.</p>
+<p>From the Password Reset screen, when I provided a bogus email, I was redirected to <a href="https://www.airbnb.com/login?email=bogus%40email.biz"><code>/login?email=bogus%40email.biz</code></a>:</p>
+<blockquote>
+<p>No account exists for bogus@email.biz. Maybe you signed up using a different/incorrect e-mail<span class="widont">&nbsp;</span>address.</p>
+</blockquote>
+<p>Airbnb is leaking information about which email addresses have Airbnb<span class="widont">&nbsp;</span>accounts.</p>
+<p>I was unable to find any evidence of ratelimiting or<span class="widont">&nbsp;</span>CAPTCHAs.</p>
+<h4 id="consensus">Consensus</h4>
+<p>3.5/5 ★★★☆☆</p>
+<p>From its homepage, Airbnb’s Password Reset flow passed all five user flows with flying colours. It was fast, simple, and always remembered my<span class="widont">&nbsp;</span>email.</p>
+<p>However, when resetting a password from the standalone, synchronous page, the first three user flows<span class="widont">&nbsp;</span>failed.</p>
+<h3 id="amazon">Amazon</h3>
+<p><small class="url"><a href="https://www.airbnb.com/">https://www.airbnb.com/</a></small></p>
+<h4 id="-good">☺ Good</h4>
+<p>The email field correctly used <code>[type=email]</code>.</p>
+<p><span class="caps">CAPTCHA</span> was used (although not<span class="widont">&nbsp;</span>ideally).</p>
+<p>When I correctly completed the <span class="caps">CAPTCHA</span> and entered an email that was not registered with Amazon, I received this<span class="widont">&nbsp;</span>error:</p>
+<blockquote>
+<p>Enter the characters as they are shown in the<span class="widont">&nbsp;</span>image.</p>
+</blockquote>
+<p>Although the error message was misleading, at least Amazon didn’t leak user<span class="widont">&nbsp;</span>info.</p>
+<h4 id="-bad">☹ Bad</h4>
+<p>Unfortunately, my email address was never<span class="widont">&nbsp;</span>preserved.</p>
+<p>Instead of ratelimiting the page and presenting a <span class="caps">CAPTCHA</span> after a few log-in failures, Amazon always shows a <span class="caps">CAPTCHA</span> on the Password Reset page. (Not there should be, but I’m curious why there’s not also <span class="caps">CAPTCHA</span> on the Log-In page [presumably to thwart spamming people with Password Reset<span class="widont">&nbsp;</span>emails].)</p>
+<p>Clicking the “Sign in” link from Amazon’s homepage redirected me to a comically long<span class="widont">&nbsp;</span><span class="caps">URL</span>:</p>
+<pre><code>https://www.amazon.com/ap/signin/181-7787942-3643323?_encoding=UTF8&amp;openid.assoc_handle=usflex&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.mode=checkid_setup&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&amp;openid.pape.max_auth_age=0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_signin
+</code></pre><p>I tried <a href="https://www.amazon.com/ap/signin/181-7787942-3643323">stripping everything after the query string</a>, and I got a 404. I tried <a href="https://www.amazon.com/ap/signin/">stripping the <span class="caps">ID</span></a>, and I still got a<span class="widont">&nbsp;</span>404.</p>
+<p>Clicking the “Forgot your password?” link returned a similarly complicated <span class="caps">URL</span>. Not only is this bad for linkability and troubleshooting, but when refreshing the Log-In page after forgetting my password, since I didn’t want my browser to resubmit the form, I tried manually hard-refreshing the page but again got a<span class="widont">&nbsp;</span>404.</p>
+<p>A bit of Googling turned up the <span class="caps">URL</span> for the <a href="https://www.amazon.com/gp/sign-in.html">Log-In page</a> and the <a href="http://www.amazon.com/exec/obidos/self-service-forgot-password-get-email">Password Reset<span class="widont">&nbsp;</span>page</a>.</p>
+<p>The <code>&lt;label&gt;</code> for the Email field doesn’t work, since its <code>for</code> attribute is <code>ap_fpp_email</code> and the Email field’s <code>id</code> is actually <code>ap_email</code>.</p>
+<p>For a few weeks, I was being served <a href="https://twitter.com/lukew/status/505080906994814976">Amazon’s redesigned pages</a>, but I still encountered all of the same issues and my email was still not<span class="widont">&nbsp;</span>preserved.</p>
+<h4 id="consensus">Consensus</h4>
+<p>1/5 ★☆☆☆☆</p>
+<p>Amazon’s Password Reset flow failed on every user flow, except the last one: when using a different email address, my original one wasn’t preserved. But my first email address wasn’t preserved either, so through that technicality this flow did manage to earn 1<span class="widont">&nbsp;</span>star.</p>
+<h3 id="facebook">Facebook</h3>
+<p><small class="url"><a href="https://www.facebook.com/">https://www.facebook.com/</a></small></p>
+<h4 id="-good">☺ Good</h4>
+<p>From the <a href="https://www.facebook.com/recover/initiate">Password Reset page</a>, Facebook allowed me to type in my email, phone, username, or full name so I could be emailed a link or texted a code to reset to reset my password. For legitimate use cases, this is a good experience, but I can’t help but think this could be avoided by merely preserving the original value in the Email/Phone<span class="widont">&nbsp;</span>field.</p>
+<p>After many repetitive requests, a <span class="caps">CAPTCHA</span> lightbox<span class="widont">&nbsp;</span>appears.</p>
+<h4 id="-bad">☹ Bad</h4>
+<p>Unfortunately, my email address was never<span class="widont">&nbsp;</span>preserved.</p>
+<p>For the Email/Phone field, <code>type=&quot;text&quot;</code> was used. This is technically correct, but when viewed on the mobile site (instead from the native app), the keyboard makes it slightly more difficult to enter an email address or a phone<span class="widont">&nbsp;</span>number.</p>
+<p>The Email/Phone and Password fields use <code>&lt;label&gt;</code>s correctly for <a href="https://www.facebook.com/login">logging in</a>, but the field on the <a href="/articles/password-resets/[Password%20Reset%20page](https://www.facebook.com/recover/initiate">Password Reset page</a> does<span class="widont">&nbsp;</span>not.</p>
+<p>Although the <a href="https://www.facebook.com/recover/initiate">Password Reset page</a> is very helpful when someone legitimately forgets his/her password, I was able to type in anyone’s email, phone, username, or full name to see if that person had a Facebook account. I was also able to see masked (e.g., <code>h*****e@gmail.com</code> and <code>+********08</code>) emails and phone numbers, as well as the user’s networks and profile photo (if the user’s privacy settings permitted<span class="widont">&nbsp;</span>such).</p>
+<p>When a user’s profile photo was shown, Facebook told me<span class="widont">&nbsp;</span>this:</p>
+<blockquote>
+<p>You can see your name and profile picture because you’re using a computer network you’ve logged in on<span class="widont">&nbsp;</span>before.</p>
+</blockquote>
+<p>But that seemed to be untrue from my testing. I’m curious how the privacy settings for this are wired behind the<span class="widont">&nbsp;</span>scenes.</p>
+<p>Although in my test case, Facebook did not preserve a different user’s email address after attempting to log in, when I initiated a <a href="/articles/password-resets/[Password%20Reset%20page](https://www.facebook.com/recover/initiate">password reset</a> but abandoned the flow, Facebook did remember my attempted password reset. This data is stored in a cookie called <code>sfiu</code>. I can either clear this cookie or press the “Not you?” link to tell Facebook to forget my attempted password reset. I considered adjusting my test case, but I think that goes beyond a normal user<span class="widont">&nbsp;</span>flow.</p>
+<p>In conclusion, and as mentioned above, this wouldn’t be necessary if the original Email/Phone was persisted before redirecting a user to the Password Reset<span class="widont">&nbsp;</span>page.</p>
+<h4 id="consensus">Consensus</h4>
+<p>1/5 ★☆☆☆☆</p>
+<p>Facebook not only doesn’t preserve email addresses, but it also exposes considerable user info. in its Password Reset flow. Overall, it could use a lot of<span class="widont">&nbsp;</span>work.</p>
+<h3 id="github">GitHub</h3>
+<p><small class="url"><a href="https://github.com/login">https://github.com/login</a></small></p>
+<h4 id="-good">☺ Good</h4>
+<p>My email was preserved only in this particular case (user flow #4): At the Log In screen, when I provided both my email and password, submitted the form, and then clicked the “forgot password”<span class="widont">&nbsp;</span>link.</p>
+<p><code>&lt;label&gt;</code>s were used<span class="widont">&nbsp;</span>correctly.</p>
+<p>After too many attempts, I saw this error message on the <a href="https://github.com/password_reset">Password Reset page</a>:</p>
+<blockquote>
+<p>Too many attempts. Please wait a while and try<span class="widont">&nbsp;</span>again.</p>
+</blockquote>
+<h4 id="-bad">☹ Bad</h4>
+<p>GitHub had the right idea to preserve usernames/emails, but it relied on server-side logic (see screencast for user flow #4). What happened here? When the form was submitted, the server did a few validation checks, and it went something like<span class="widont">&nbsp;</span>this:</p>
+<pre><code>if (formEmail and formPassword) {
+  if (checkPassword(formPassword, dbPassword)) {
+    // Log the user in.
+  } else {
+    // Set a Set-Cookie header for `_gh_sess` which is a unique identifier that corresponds to a session that&#39;s saved temporarily in a database.
+  }
+} else {
+  // Redirect to https://github.com/session and return an error message: &quot;Incorrect username or password.&quot;
+}
+</code></pre><p>On the client:</p>
+<pre><code>if (session &amp;&amp; session.email) {
+  // Get the user&#39;s email and update `value` of the email field.
+}
+</code></pre><p>How can we fix<span class="widont">&nbsp;</span>this?</p>
+<ul>
+<li>After I leave the Forgot Password page, clear the session cookie so it doesn’t accidentally show up later for someone<span class="widont">&nbsp;</span>else.</li>
+<li>Relying on a form submit is not ideal, because the user may click the “forgot password” link before submitting the form. If we do decide to stick with using the server cookie, then we need to (1) first hide the “forgot password” link until the form has been POSTed to the server and (2) make sure that we persist the email in the cookie even if validation failed (the email and/or password fields were<span class="widont">&nbsp;</span>blank).</li>
+<li>Alternatively, use a query-string parameter or <code>sessionStorage</code> to remember the last email attempt when we are taken to the Forgot Password page. (And be sure to clear the value in <code>sessionStorage</code> when the user leaves the page, by listening to <code>window</code>‘s <code>beforeunload</code> event.)</li>
+</ul>
+<p>Also what happens if I forget my email/username? There are no additional links to get<span class="widont">&nbsp;</span>support.</p>
+<p>On a different note, on the <a href="https://github.com/password_reset">Password Reset page</a>, I saw this error message when I provided an invalid email<span class="widont">&nbsp;</span>address:</p>
+<blockquote>
+<p>Can’t find that email,<span class="widont">&nbsp;</span>sorry.</p>
+</blockquote>
+<p>It’s worth noting that this case is handled appropriately from the Log-In<span class="widont">&nbsp;</span>page:</p>
+<blockquote>
+<p>Incorrect username or<span class="widont">&nbsp;</span>password.</p>
+</blockquote>
+<h4 id="consensus">Consensus</h4>
+<p>1/5 ★☆☆☆☆</p>
+<p>GitHub had the right idea to preserve usernames/emails, but it relied on server-side logic. Move that logic to the client side, add some help links, and we’d be in good<span class="widont">&nbsp;</span>shape.</p>
+<h3 id="google">Google</h3>
+<p><small class="url"><a href="https://accounts.google.com/ServiceLogin">https://accounts.google.com/ServiceLogin</a></small></p>
+<h4 id="-good">☺ Good</h4>
+<p>When I submitted the Log-In form, even when the password field was blank, my email was preserved on the <a href="https://www.google.com/accounts/recovery/">Password Reset page</a> (user flow #3). It was quite nice to see this working (as long as I submitted the<span class="widont">&nbsp;</span>form).</p>
+<p>When trying to log in with an invalid email (or password), I encountered a good generic error<span class="widont">&nbsp;</span>message:</p>
+<blockquote>
+<p>The email or password you entered is<span class="widont">&nbsp;</span>incorrect.</p>
+</blockquote>
+<h4 id="-bad">☹ Bad</h4>
+<p>To my surprise, Google actually reported whether or not the email<span class="widont">&nbsp;</span>existed:</p>
+<blockquote>
+<p>No account found with that email<span class="widont">&nbsp;</span>address.</p>
+</blockquote>
+<p>Continuing the password-reset flow for someone else’s account exposed the user’s name and a masked phone<span class="widont">&nbsp;</span>number.</p>
+<p>On a separate note, this step seemed unnecessary (especially since it was optional): “Enter the last password you<span class="widont">&nbsp;</span>remember.”</p>
+<h4 id="consensus">Consensus</h4>
+<p>3/5 ★★★☆☆</p>
+<p>Quite good. I was a bit surprised by the leaky password<span class="widont">&nbsp;</span>info.</p>
+<h3 id="kickstarter">Kickstarter</h3>
+<p><small class="url"></small></p>
+<h4 id="-good">☺ Good</h4>
+<h4 id="-bad">☹ Bad</h4>
+<p>The link to the Password Reset page was hard to find. (Give up? It’s the <strong>?</strong> in the Password<span class="widont">&nbsp;</span>field.)</p>
+<h4 id="consensus">Consensus</h4>
+<p>1/5 ★☆☆☆☆</p>
+<h3 id="pinterest">Pinterest</h3>
+<p><small class="url"></small></p>
+<h4 id="-good">☺ Good</h4>
+<h4 id="-bad">☹ Bad</h4>
+<p>My email was preserved, but only when both my email and password were filled out and the form was submitted. I was redirected to <a href="https://www.pinterest.com/login/reset/?username_or_email=legit%40email.biz"><code>/login/reset/?username_or_email=legit%40email.biz</code></a>.</p>
+<p>After three failed password attempts, the fourth attempt redirected me to this <span class="caps">URL</span>: <a href="https://www.pinterest.com/login/reset/?username_or_email=legit%40email.biz"><code>/login/reset/?username_or_email=legit%40email.biz</code></a>.</p>
+<h4 id="consensus">Consensus</h4>
+<p>2/5 ★★☆☆☆</p>
+<h3 id="twitter">Twitter</h3>
+<p><small class="url"></small></p>
+<h4 id="-good">☺ Good</h4>
+<p>Most sites seem to overlook the case where the form hasn’t been submitted yet. Not Twitter<span class="widont">&nbsp;</span>though.</p>
+<p>How’s it work?</p>
+<p>It hijacks the click and sets <code>window.location.href</code> to <code>https://twitter.com/account/begin_password_reset?account_identifier=email@domain.com</code></p>
+<p>Clicking on “Forgot password?” appends the email as a query-string parameter to the link before taking you to the Forgot Password<span class="widont">&nbsp;</span>page.</p>
+<p><a href="https://twitter.com/account/begin_password_reset?account_identifier=legit@email.biz">https://twitter.com/account/begin_password_reset?account_identifier=legit@email.biz</a></p>
+<h4 id="-bad">☹ Bad</h4>
+<p>Although Twitter handles the first two user flows like a champ, it fails on arguably the most common flows: #3 and #4 (preservation after<span class="widont">&nbsp;</span>submission).</p>
+<h4 id="consensus">Consensus</h4>
+<p>3/5 ★★☆☆☆</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Next time you build a Password Reset form, take<span class="widont">&nbsp;</span>note:</p>
+<ul>
+<li>If a user is prompted for email/username, always preserve the value on the Password Reset form (at the bare minimum, handling the aforementioned five user flows).<ul>
+<li>Cookies are unnecessary. Use query-string parameters or <code>sessionStorage</code> (but remember to clear the value when the user navigates<span class="widont">&nbsp;</span>away).</li>
+</ul>
+</li>
+<li>Use proper input types (<code>type=&quot;email&quot;</code> for email or <code>type=&quot;text&quot;</code> for username). (Bonus points for input hints, such as autocompleting <code>@gmail.com</code>.)</li>
+<li>Use <code>pushState</code> when redirecting to the Password Reset page from the Log-In/Register<span class="widont">&nbsp;</span>page.</li>
+<li>Use form <code>&lt;label&gt;</code>s and <code>placeholder</code> text appropriately.</li>
+<li>Use inline form validation for success and error<span class="widont">&nbsp;</span>messages.</li>
+<li>Do not leak user info. for invalid emails (e.g., “A user with that email does not<span class="widont">&nbsp;</span>exist”).</li>
+<li>Ratelimit many repetitive requests (start with <em>reasonable</em> time-based ratelimiting and use CAPTCHAs as a very last resort; be sure to log all<span class="widont">&nbsp;</span>attempts).</li>
+</ul>
+</section>
+          </article>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="content-wrap">
+          <div class="related related-footer c">
+            <ul class="related-list">
+              <li class="related-item">
+              </li>
+              <li class="related-item"><a href="/archive/" class="related-link related-centre-link"><span class="link-inner"><span class="finger finger-right finger-right-inward">☛</span>Archive<span class="finger finger-left finger-left-inward">☚</span></span></a>
+              </li>
+              <li class="related-item">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://blog.cvan.io/js/main.js"></script>
+  </body>
+</html>

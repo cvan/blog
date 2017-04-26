@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cvan’s blog</title>
+    <atom:link href="https://blog.cvan.io/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>https://blog.cvan.io</link>
+    <description></description>
+    <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>That Sinking Feeling</title>
+      <link>https://blog.cvan.io/articles/that-sinking-feeling/</link>
+      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.cvan.io/articles/that-sinking-feeling/</guid>
+      <author></author>
+      <description>&lt;p&gt;Washing your hands in a public washroom can be delightful.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/203725/25456839/eea196e2-2a88-11e7-9aa9-e53aeb429ac0.jpg&quot; class=&quot;img&quot; alt=&quot;Sink with analogue faucet&quot; alt=&quot;Sink with analogue faucet&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Traditional “analogue” faucets are reliable, so why have most been replaced with hands-free ones?&lt;/p&gt;
+&lt;h2 id=&quot;known-limitations&quot;&gt;Known limitations&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Faucet requires electric technology and sensors.&lt;/li&gt;
+&lt;li&gt;Finicky motion sensors make the water take a long time to start running or prematurely stop running before I’ve finished washing.&lt;/li&gt;
+&lt;li&gt;Water temperature is too warm/cold, or the water pressure is too strong/soft.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;ideal-solutions&quot;&gt;Ideal solutions&lt;/h2&gt;
+&lt;p&gt;An ideal faucet is either an analogue faucet or a hands-free faucet with the following features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Works without electricity.&lt;/strong&gt; A good sink should be enhanced by electricity but not require it. I ought to be able to wash my hands by lifting a lever or pressing a mechanical button.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Start running the water when I say so.&lt;/strong&gt; How does a good sink know a person is ready for the water to start running? The term “hands-free” doesn’t need to mean “wave your hands” or “stand in front of the sink.” Sinks with motion sensors use common gestures to make assumptions of intent. At best, the sink starts nearly instantaneously (even if you don’t want to wash your hands); at worst, the sink doesn’t start at all, and you walk out of the washroom with your hands still dirty. Although extraordinarily rare in my experience but effective: a &lt;em&gt;foot lever&lt;/em&gt;. It prevents you from having to have to wave your hands, so &lt;em&gt;you&lt;/em&gt; tell the sink when you’re ready (instead of it assuming), and it’s more sanitary avoiding the need to touch a physical knob. The design ought to be mindful of folks who are missing, unable, or unwilling to use their feet. Additionally, near the sink and at eye level in the mirror, there ought to be clear signage in an obvious location (and ideally with accessible signage in the commonly spoken languages of the washroom location, and with braille text as well).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Allow me to change the water temperature and pressure with a foot lever.&lt;/strong&gt; I started noticing that in some washrooms with several sinks, the sinks appear to be arranged in order of faucet water temperature. from warmer to colder or vice-versa, colder to warmer. I’m still unclear whether these are intentionally designed patterns or a coincidental occurrences because of water flow and/or distance of pipes. For washrooms with more than one sink, arrange hands-free sinks in a predictable and uniform order based on water temperature: cold to warm. Or, riffing off the foot-lever idea, you could have the water temperature change based on the intensity with which you press your foot down.&lt;ul&gt;
+&lt;li&gt;The washrooms at the &lt;em&gt;Shoreline Ampitheatre&lt;/em&gt; (Mountain View, California) have two circular communal sinks with about a dozen faucets. There’s a single foot pedals which controls the water pressure; one person presses it, and water runs from all the sinks.&lt;/li&gt;
+&lt;li&gt;The washrooms at the &lt;em&gt;Golden Gate Park&lt;/em&gt; (San Francisco, California) during the annual Outside Lands Festival are port-o-potties. To wash your hands, there’s hand sanitiser in a dispenser that’s bolstered to the wall. Because these require a lot of manual maintenance to keep the dispensers full, it’s difficult to know if there is even any hand sanitiser in these stalls before entering. Many festival-goers bring their own portable travel bottles of hand sanitiser (usually hooked to a purse/backpack/fanny pack). Near most of the stalls there are portable sinks with &lt;em&gt;foot pumps&lt;/em&gt;! You harder you slam your foot on the pumps, the more the water comes out (albeit it in drops, to conserve water). It’s effective but there are two obvious problems: not knowing whether there is any available water and being able to control (or discern before using) the temperature of the water. The solution to the temperature would be to actually show the water level (à la Keurig coffee machines – the personal, not industrial, ones). This not only helps set the correct expectations before using the sink, but it also hopefully helps you think about the amount of water you consume by washing your hands.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Shift Your Perspective</title>
+      <link>https://blog.cvan.io/articles/shift-your-perspective/</link>
+      <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.cvan.io/articles/shift-your-perspective/</guid>
+      <author></author>
+      <description>&lt;p&gt;How do you learn to finish all the projects you’ve started, respond to all the emails you’ve received, and ensure all loose ends in your life are attended to?&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;You could use tools (e.g., &lt;a href=&quot;https://evernote.com/&quot;&gt;Evernote&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Getting_Things_Done&quot;&gt;“GTD” apps&lt;/a&gt;, &lt;a href=&quot;http://lifehacker.com/print-this-four-week-calendar-to-use-seinfelds-product-1491809191&quot;&gt;calendars&lt;/a&gt;, old-fashioned note cards or Post-It™ notes, etc.). You could use programs to automate, organize, and sift through the distracting noise (e.g., &lt;a href=&quot;https://ifttt.com/&quot;&gt;IFTTT&lt;/a&gt;, shell/&lt;a href=&quot;https://www.npmjs.com&quot;&gt;npm&lt;/a&gt; scripts, &lt;a href=&quot;https://www.taskrabbit.com/&quot;&gt;TaskRabbit&lt;/a&gt;, etc.). You could use techniques to restrain yourself from distractions (e.g., &lt;a href=&quot;http://pomodorotechnique.com/&quot;&gt;Pomodoro&lt;/a&gt;, &lt;a href=&quot;https://www.rescuetime.com/&quot;&gt;RescueTime&lt;/a&gt;, etc.).&lt;/p&gt;
+&lt;p&gt;But how do you know you’re focussing on the right things, the important things? You could change your perspective, both in the moment and in the long term.&lt;/p&gt;
+&lt;p&gt;On a whim, I bought this book called &lt;a href=&quot;http://www.goodreads.com/book/show/17971839-do-improvise&quot;&gt;&lt;em&gt;Do Improvise&lt;/em&gt;&lt;/a&gt;. I hoped it would solve my problems of having all these grandiose ideas… with even plans… with even steps… but no action. There’s action, but there’s no closure. Skimming this book, I stumbled upon a page about the tendency many (most?) folks experience of “creative thinking” instead of “creative doing.”&lt;/p&gt;
+&lt;p&gt;Why do we keep coming up with ideas but never want to be the ones to build them? Because for most of us, we get stuck in the result-driven mindset or the process-driven mindset, but rarely both. There are times in our lives when we may find ourselves enamoured with the process but not enough to close that chapter, that thread, that project – and just get it done.&lt;/p&gt;
+&lt;p&gt;On the opposite side of the spectrum, we can find ourselves becoming too focussed on fixing the details. This seems to be a sort of procrastination that makes us feel productive but leaves us still with things unfinished.&lt;/p&gt;
+&lt;p&gt;Yesterday, I borrowed a coworker’s copy of experimental musician &lt;a href=&quot;https://en.wikipedia.org/wiki/Brian_Eno&quot;&gt;Brian Eno&lt;/a&gt;‘s &lt;a href=&quot;http://www.rtqe.net/ObliqueStrategies/&quot;&gt;&lt;em&gt;Oblique Strategies&lt;/em&gt;&lt;/a&gt;. The idea is simple: when you’re stressed or overthinking about all the things you have to do or could be doing, you open the deck, pull out a card, don’t put it away, and let the words on the card sit with you for a second. It’s like wisdom from a fortune cookie. See if it applies to your current thinking in the moment. Reflect. And shift your perspective.&lt;/p&gt;
+&lt;p&gt;There’s always a start. A start in shifting your perspective can be the one new thought that can bring you to finishing (or changing) the thoughts that are plaguing you from finishing.&lt;/p&gt;
+&lt;p&gt;Start now. And let yourself finish.&lt;/p&gt;
+&lt;p&gt;Change your environment. Change your equipment. Change your perspective.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Daily Personal Pride</title>
+      <link>https://blog.cvan.io/articles/daily-personal-pride/</link>
+      <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.cvan.io/articles/daily-personal-pride/</guid>
+      <author></author>
+      <description>&lt;p&gt;Do one thing today for yourself, your personal life, that you’ve been itching to do but, for whatever reason, haven’t done.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;For me, that’s sharing my thoughts and insights about design usability problems and solutions I see in the world.&lt;/p&gt;
+&lt;p&gt;My current thinking is that if I can go to bed proud every night of something that has been &lt;em&gt;completed&lt;/em&gt; and that is &lt;em&gt;meaningful&lt;/em&gt; to me, I’ll be able to propel myself to finish everything else I’ve left unfinished.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Lunch Time: Crunch Time</title>
+      <link>https://blog.cvan.io/articles/lunch-time-crunch-time/</link>
+      <pubDate>Wed, 28 Oct 2015 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.cvan.io/articles/lunch-time-crunch-time/</guid>
+      <author></author>
+      <description>&lt;p&gt;I struggle with work-life balance.&lt;/p&gt;
+&lt;p&gt;Most folks I know derive their identity from primarily work or life, usually one or the other, not both.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We invest our energy on things that satisfy our sense of self. At least we think we &lt;em&gt;should&lt;/em&gt;. And we shame ourselves when we don’t.&lt;/p&gt;
+&lt;p&gt;Am I a hard worker? I’ve been told that by friends, family, and coworkers since I can remember.&lt;/p&gt;
+&lt;p&gt;Am I always productive? No. And I shame myself when I’m not. I operated a web design/development business from age 12 through 19, serving a huge client base and launching over 50 web sites. I ran out of energy, and I couldn’t deal with it. So I procrastinated. I just cut out my clients.&lt;/p&gt;
+&lt;p&gt;I pride myself on my work. Historically, I’ve done my best work when I spend most of my energy and time &lt;em&gt;working&lt;/em&gt;. Instead of doing many things poorly, I do one thing well.&lt;/p&gt;
+&lt;p&gt;That’s not to say I sacrifice weekends, but committed &lt;em&gt;working&lt;/em&gt; often bleeds into late evening nights during the week.&lt;/p&gt;
+&lt;p&gt;I shame myself for getting distracted with life things, which often include planning or attending trips, events, errands, and appointments.&lt;/p&gt;
+&lt;p&gt;How do you spend time on both work and life?
+How can you budget time on a regular basis for both?
+Historically, I’ve always worked on things when I was in the mood. Writing’s a good example of that.&lt;/p&gt;
+&lt;p&gt;It’s also why most people don’t stick with habits or change to do new exciting things or things they’ve wanted to do for years. You write lists of things you want to do but you never see them through. Or you start a project and never finish it. There is no shame in not finishing something or not finishing a book. If you’ve lost interest, there’s usually a reason why. It may not be immediately gratifying, and you’re usually used to that immediate gratification. Or, frustration has gotten the best of you.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;p&gt;My recent trick has been to take a full hour of lunch. And, when coworkers/friends are not there, I’ll eat by myself outside whilst reading a book. Even though I could be more social and meet new folks (and, incidentally, if I’m talking to people, often I’ll hear complaining), I forgo that because it helps me instill the habits I want to develop: to avoid eating at my desk, to actually take a full hour for lunch and step away from work so I can recharge, to establish work-life &lt;em&gt;boundaries&lt;/em&gt; (not necessarily &lt;em&gt;balance&lt;/em&gt;). Going outside on the patio it feels like I’m not in a work environment, and the fresh air calms me, and it gives me time to actually get my life things done.&lt;/p&gt;
+&lt;p&gt;After I’m done eating, I’ll use the remainder of the hour (yes, I set a timer on my smart phone) to make phone calls, send emails, book events, whatever I have on my to-do list of “life things” (usually itemised in an Evernote, index card, or GitHub issues in my private “life” repo).&lt;/p&gt;
+&lt;p&gt;Such a great feeling of accomplishment knowing I got all those things out of the way. They’re often things I previously procrastinated on for months. But forcing myself to not feel guilty about not working, I actually get my stuff done. And now while I’m working, I’m not shaming myself for not getting my life things done. It’s very rewarding. And it eases my mind. And simplifies the number of things I have to think about - or worse, shame myself about when my mind falls into the old patterns.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lunch:&lt;/strong&gt; Step away from the computer/television/telephone. Set an alarm and take a full hour to eat your food whilst reading a book alone and/or talk with people. When you’re done eating, get several “life things” done until that hour is up (set a maximum of one thing per day per lunch hour, eventually working your way up to a maximum of three things).&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Wait for Inspiration</title>
+      <link>https://blog.cvan.io/articles/wait-for-inspiration/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.cvan.io/articles/wait-for-inspiration/</guid>
+      <author></author>
+      <description>&lt;p&gt;I’ve heard people say, “don’t wait for inspiration” or “don’t wait for motivation.” I disagree.&lt;/p&gt;
+&lt;p&gt;Wait for inspiration. Wait for motivation.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I inspire myself by surrounding myself with objects of inspiration: creativity books (my current favorite being “10,000 Things I Love”), conversations with coworkers and friends about their varied interests and grand ideas, old Technicolor films (adventure films, especially – Alfred Hitchcock’s &lt;a href=&quot;http://www.imdb.com/title/tt0053125/&quot;&gt;&lt;em&gt;North by Northwest&lt;/em&gt;&lt;/a&gt; ranks up there), old magazine ads or orchestra concert pamphlets from used bookstores, ham radio enthusiasts’ web pages, astronomy and space exploration (think the original &lt;a href=&quot;http://www.imdb.com/title/tt0060028/&quot;&gt;&lt;em&gt;Star Trek&lt;/em&gt;&lt;/a&gt; and &lt;a href=&quot;http://www.imdb.com/title/tt0081846/&quot;&gt;&lt;em&gt;Cosmos&lt;/em&gt;&lt;/a&gt; television series), 1920s/1930s architecture and interior design of bars and restaurants and lounges (watch &lt;a href=&quot;http://www.imdb.com/title/tt0028010/&quot;&gt;&lt;em&gt;My Man Godfrey&lt;/em&gt;&lt;/a&gt;), and folks in the tech community who experiment with using art and cinema and social communication as avenues of experimentation with Web technologies. Surround yourself, and you will be enveloped – if not bombarded – by inspiration. It’s a good problem to have though.&lt;/p&gt;
+&lt;p&gt;How do I get motivation? Most of us try to get motivated by ingesting chemicals: vitamins, supplements, caffeine, and alcohol. Sure, these substances can provide us with short bursts of energy, but there’s something much more sustainable and motivating: in-person collaborative work.&lt;/p&gt;
+&lt;p&gt;My first full-time job out of high school was as a web developer at a Silicon Valley Internet company. As a member of a team of six employees on site (and four remote employees), I became very fond and comfortable of in-person collaboration. Pair programming (to ramp up on a project, to acquaint a new hire, or to force two people to get motivated and focused on a particular project), white boarding a problem with a coworker or two in a conference room, and dishing about innovation over food and drinks – I loved it all. The social interaction made my work feel alive and meaningful – and by extension, I felt alive and meaningful. Though complaints and frustrations were commonplace (like most workplaces), humor and collaboration brought everyone together. And, more importantly to me, it was my motivation.&lt;/p&gt;
+&lt;p&gt;Over the years, one by one I lost all my on-site teammates, who had either moved locations or left the company. I didn’t realize my new lack of social interaction, not to mention the morale, was directly affecting my motivation. Without the constant back and forth – the humor and the collaboration – I was finding it harder to smile and joke (since I wasn’t used to interacting with work folks who were not on my team) and harder and less enjoyable to work with others in general (who, not by coincidence, were all remote employees). As such, my mental state and productivity declined. I’ve since surrounded myself in the kitchen at work where I joke around and work with other colleagues on a daily basis. Though it can be distracting at times, it’s nothing that noise-cancelling headphones can’t solve.&lt;/p&gt;
+&lt;p&gt;Figure out what makes you inspired to take on the world. Figure out what makes you motivated to get things done and live the life you want.&lt;/p&gt;
+&lt;p&gt;Inspiration and motivation come from within. But, by all means, use your external dependencies to sustain those energies. Your mind won’t mind. In fact, it’ll thank you.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Corrective Design</title>
+      <link>https://blog.cvan.io/articles/corrective-design/</link>
+      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.cvan.io/articles/corrective-design/</guid>
+      <author></author>
+      <description>&lt;p&gt;I like applications that correct me when I make mistakes.&lt;/p&gt;
+&lt;h2 id=&quot;forgiving-inputs&quot;&gt;Forgiving inputs&lt;/h2&gt;
+&lt;p&gt;Don’t make the user do string replacing and pattern matching. That’s something the application can do instead.&lt;/p&gt;
+&lt;p&gt;Hypothetically, a site asks for a phone number with a specific pattern: a string prefixed with a &lt;code&gt;+&lt;/code&gt; followed by 10 digits. If I enter &lt;code&gt;650 555 1212&lt;/code&gt;, the application should be smart enough&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;to strip any non-numeric character (e.g., spaces, dots, hyphens, parentheses, slashes), and&lt;/li&gt;
+&lt;li&gt;to automatically prefix with a common default (&lt;code&gt;+1&lt;/code&gt; for a site with mostly US visitors, &lt;code&gt;+44&lt;/code&gt; for a site with mostly German visitors).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(I actually reported this issue to Authy, with these recommendations, and they said they couldn’t fix it.)&lt;/p&gt;
+&lt;h2 id=&quot;catching-mistakes&quot;&gt;Catching mistakes&lt;/h2&gt;
+&lt;p&gt;When requesting a ride from Uber, the application guesses and prefills your pickup location. Often times this is wrong, especially in apartment complexes and city streets near tall buildings.&lt;/p&gt;
+&lt;p&gt;As such, I’ve gotten into the habit of manually entering my pickup location. The next screen asks for your dropoff location.&lt;/p&gt;
+&lt;p&gt;On more than two occasions, I misentered my pickup as my dropoff location. I would then have to cancel my Uber ride, resulting in a $5 cancellation fee (and usually a confused driver).&lt;/p&gt;
+&lt;p&gt;I realise many will say it’s my mistake for not reading things closely. It’s my opinion that the application should be resilient, forgiving, and intelligent.&lt;/p&gt;
+&lt;p&gt;After entering your pickup and dropoff locations, the application could easily check your relative distance from each location and then display a confirmation warning if things look suspicious.&lt;/p&gt;
+&lt;p&gt;(I also reported this issue to Uber, with this recommendation, and they said they would keep it in mind.)&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;p&gt;Don’t punish your users for just wanting to use your app and get on with their lives. Forgive them, and they’ll forgive you. Your users aren’t perfect, and neither is your app.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Pretension and Pleasure in Watching Cinema</title>
+      <link>https://blog.cvan.io/articles/pretension-and-pleasure-in-watching-cinema/</link>
+      <pubDate>Sat, 24 Jan 2015 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.cvan.io/articles/pretension-and-pleasure-in-watching-cinema/</guid>
+      <author></author>
+      <description>&lt;p&gt;Watching an episode of the hilarious &lt;a href=&quot;http://www.imdb.com/title/tt1442437/&quot;&gt;&lt;em&gt;Modern Family&lt;/em&gt;&lt;/a&gt;, I was reminded of that warm feeling I used to get from watching movies, films, cinema. Specifically, from the &lt;a href=&quot;http://en.wikipedia.org/wiki/French_New_Wave&quot;&gt;French New Wave&lt;/a&gt;, &lt;em&gt;La Nouvelle Vague&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Just the other day, I opened &lt;a href=&quot;https://mubi.com/&quot;&gt;MUBI&lt;/a&gt;, a streaming movie service I use (think Netflix for cinephiles aka film snobs). This black-and-white American “indie” &lt;a href=&quot;http://en.wikipedia.org/wiki/Comedy-drama&quot;&gt;dramedy&lt;/a&gt; film from 1953 caught my eye: &lt;a href=&quot;http://www.imdb.com/title/tt0046004/&quot;&gt;&lt;em&gt;Little Fugitive&lt;/em&gt;&lt;/a&gt;. There was even a testimonial by French New Wave filmmaker &lt;a href=&quot;http://en.wikipedia.org/wiki/Fran%C3%A7ois_Truffaut&quot;&gt;François Truffaut&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Our New Wave would never have come into being if it hadn’t been for the young American Morris Engel, who showed us the way with his fine movie &lt;em&gt;Little Fugitive&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Watching French New Wave cinema — especially the works of Jean-Luc Godard and Agnès Varda — has been a deeply emotional and satisfying experience for me. For the same reasons I adore Wes Anderson’s films (which were unsurprisingly inspired by the New Wave), these films were subtly funny, intentionally unpolished, nuanced, and — above all — pretentious. One summer in particular, I fell in love with Godard films, watching one after another lying in bed in corporate housing during a summer internship. My roommate thought I was totally normal.&lt;/p&gt;
+&lt;p&gt;What attracted me to these films? The pretension? The gritty aesthetic? The high-brow dialogue? The subtitles? The cult following? The “sophisticated” humour? The self-reflexive style? The existential themes? The attention to detail? The mise en scène? The historical significance? Romanticisation with the culture and the time period? The fact that I noticed the voiceovers, the jump cuts, the overhead shots, the tracking shots? Was I deeply invested and moved by the films because of my attachment to or loyalty to Godard as an auteur? Was this art that only I &lt;strong&gt;appreciated&lt;/strong&gt;? Were there details only I &lt;strong&gt;noticed&lt;/strong&gt;? Were these moments of self inquiry and introspection only things I &lt;strong&gt;experienced&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;I ask myself why I have never felt this level of intimacy with a television program, no matter how polished or original it may be.&lt;/p&gt;
+&lt;p&gt;Is it because television is culturally positioned as a lower art form — a cheap and accessible entertainment vehicle for the uninspired masses? Is there a simple explanation for my deep identification with French New Wave cinema — or cinema in general, for that matter? Is it the duration, the absence of a laugh track, the visual space, the very deliberate capture and framing of items in a moving picture?&lt;/p&gt;
+&lt;p&gt;With the exception of &lt;em&gt;Seinfeld&lt;/em&gt;, I’ve realised that most of my favourite television programs feel very cinematic (&lt;em&gt;Bored to Death&lt;/em&gt;, &lt;em&gt;The Mindy Project&lt;/em&gt;, &lt;em&gt;Party Down&lt;/em&gt;) or are presented in a mockumentary/fly-on-the-wall format (&lt;em&gt;Arrested Development&lt;/em&gt;, &lt;em&gt;The Office&lt;/em&gt; circa seasons 1–3).&lt;/p&gt;
+&lt;p&gt;Perhaps television should mimic cinema (or just &lt;a href=&quot;https://www.youtube.com/watch?v=jKS3MGriZcs&quot;&gt;cut those darn laugh tracks&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Perhaps we should all just watch cinema (or just Godard).&lt;/p&gt;
+&lt;p&gt;Perhaps I’m just pretentious (or you just don’t get it).&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Investment and Identification in Life Pursuits</title>
+      <link>https://blog.cvan.io/articles/identification-and-investment-in-life-pursuits/</link>
+      <pubDate>Sat, 24 Jan 2015 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.cvan.io/articles/identification-and-investment-in-life-pursuits/</guid>
+      <author></author>
+      <description>&lt;p&gt;Is it possible to have an interest, goal, job, project, or idea without complete identification?&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Outward recognition/imaging and pride thrive on dopamine chasing. “I am a listener of underground hip-hop music,” or “I am an inventor of this programming technique,” I tell myself.&lt;/p&gt;
+&lt;p&gt;We lie to ourselves, chase the wrong things, not knowing what or whom to pursue or let go. Start by watching yourself. As honestly as you can. It can be hard. But you want to be able to look back knowing you experienced a life fulfilled, not just a life completed.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Minimum Viable Exercise</title>
+      <link>https://blog.cvan.io/articles/minimum-viable-exercise/</link>
+      <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.cvan.io/articles/minimum-viable-exercise/</guid>
+      <author></author>
+      <description>&lt;p&gt;Try to find an exercise you can incorporate into your morning routine. You should be able to do it in under a few minutes. Strive for consistency and good feeling. &lt;span class=&quot;more&quot;&gt;&lt;/span&gt; For me, that’s at least 20 military pushups. Some consistent number of pushups that I must do before I shower. And I feel good about it. No need to guilt myself that I haven’t been to the gym or biked to work recently. Only pride that I am being consistently active and therefore getting progressively more fit.&lt;/p&gt;
+&lt;p&gt;What’s your MVE?&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Password Resets</title>
+      <link>https://blog.cvan.io/articles/password-resets/</link>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.cvan.io/articles/password-resets/</guid>
+      <author></author>
+      <description>&lt;p&gt;When I type my email/username in a log-in form, and realise I’ve forgotten my password, I expect the Password Reset form to preserve my email/username.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I hypothesised that most major sites suffer from a bad case of ICRS on their Password Reset forms. I conducted an experiment to prove my hypothesis and wrote this blog post to publish my findings (and to increase awareness of this epidemic).&lt;/p&gt;
+&lt;p&gt;I wrote &lt;a href=&quot;https://github.com/cvan/password-reset-screencasts/tree/master/scripts&quot;&gt;CasperJS scripts&lt;/a&gt; tailored to the sites’ Password Reset flows. Taking screenshots along the way, I automated the following user flows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;At Log In screen, provide email only, and then reset password.&lt;/li&gt;
+&lt;li&gt;At Log In screen, provide email and password, and then reset password.&lt;/li&gt;
+&lt;li&gt;At Log In screen, provide email only, submit the form, and then reset password.&lt;/li&gt;
+&lt;li&gt;At Log In screen, provide email and password, submit the form, and then reset password.&lt;/li&gt;
+&lt;li&gt;At Password Reset screen, provide a different email, and then reset password.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I then used &lt;a href=&quot;https://github.com/cvan/password-reset-screencasts/blob/17b7bba/Makefile#L13-L18&quot;&gt;ffmpeg&lt;/a&gt; to stitch together the screencasts.&lt;/p&gt;
+&lt;p&gt;(Unfortunately, I had to disqualify LinkedIn and Tumblr because ratelimiting and CAPTCHAs prevented my automated tests from completing.)&lt;/p&gt;
+&lt;h2 id=&quot;screencasts&quot;&gt;Screencasts&lt;/h2&gt;
+&lt;table class=&quot;password-reset-comparison&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Site&lt;/th&gt;
+      &lt;th&gt;Email only&lt;/th&gt;
+      &lt;th&gt;Email + password&lt;/th&gt;
+      &lt;th&gt;Email only, form submitted&lt;/th&gt;
+      &lt;th&gt;Email + password, form submitted&lt;/th&gt;
+      &lt;th&gt;Different email + password&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;a href=&quot;https://www.airbnb.com/&quot;&gt;&lt;img src=&quot;airbnb.png&quot; alt=&quot;Airbnb&quot; title=&quot;Airbnb&quot;&gt;&lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_1.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_1.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_6.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_6.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_2.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_2.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_7.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_7.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_3.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_3.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_8.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_8.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_4.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_4.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_9.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_9.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_5.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_5.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_10.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/airbnb_10.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;a href=&quot;https://www.amazon.com/gp/sign-in.html&quot;&gt;&lt;img src=&quot;amazon.png&quot; alt=&quot;Amazon&quot; title=&quot;Amazon&quot;&gt;&lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_1.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_1.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_2.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_2.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_3.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_3.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_4.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_4.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_5.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/amazon_5.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;a href=&quot;https://www.facebook.com/&quot;&gt;&lt;img src=&quot;facebook.png&quot; alt=&quot;Facebook&quot; title=&quot;Facebook&quot;&gt;&lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_1.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_1.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_2.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_2.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_3.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_3.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_4.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_4.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_5.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/facebook_5.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;a href=&quot;https://github.com/login&quot;&gt;&lt;img src=&quot;github.png&quot; alt=&quot;GitHub&quot; title=&quot;GitHub&quot;&gt;&lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_1.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_1.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_2.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_2.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_3.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_3.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Good&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_4.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_4.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_5.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/github_5.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;a href=&quot;https://accounts.google.com/ServiceLogin&quot;&gt;&lt;img src=&quot;google.png&quot; alt=&quot;Google&quot; title=&quot;Google&quot;&gt;&lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_1.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_1.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_2.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_2.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_3.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_3.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_4.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_4.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_5.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/google_5.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;a href=&quot;https://www.kickstarter.com/login&quot;&gt;&lt;img src=&quot;kickstarter.png&quot; alt=&quot;Kickstarter&quot; title=&quot;Kickstarter&quot;&gt;&lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_1.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_1.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_2.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_2.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_3.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_3.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_4.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_4.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_5.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/kickstarter_5.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;a href=&quot;https://www.pinterest.com/login/&quot;&gt;&lt;img src=&quot;pinterest.png&quot; alt=&quot;Pinterest&quot; title=&quot;Pinterest&quot;&gt;&lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_1.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_1.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_2.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_2.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_3.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_3.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_4.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_4.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_5.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/pinterest_5.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;a href=&quot;https://twitter.com/&quot;&gt;&lt;img src=&quot;twitter.png&quot; alt=&quot;Twitter&quot; title=&quot;Twitter&quot;&gt;&lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_1.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_1.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_2.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_2.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_3.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_3.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_4.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_4.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;bad&quot;&gt;Bad&lt;/span&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;video controls width=&quot;100%&quot;&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_5.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;'&gt;
+          &lt;source src=&quot;https://people.mozilla.org/~cwiemeersch/blog/password-reset/screencasts/twitter_5.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;'&gt;
+        &lt;/video&gt;
+        &lt;span class=&quot;good&quot;&gt;Good&lt;/span&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2 id=&quot;analysis&quot;&gt;Analysis&lt;/h2&gt;
+&lt;h3 id=&quot;airbnb&quot;&gt;Airbnb&lt;/h3&gt;
+&lt;p&gt;&lt;small class=&quot;url&quot;&gt;&lt;a href=&quot;https://www.airbnb.com/&quot;&gt;https://www.airbnb.com/&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-good&quot;&gt;☺ Good&lt;/h4&gt;
+&lt;p&gt;Saved the best for first. Anything I entered in the email field was copied into the email field for the Password Reset form. As it should be.&lt;/p&gt;
+&lt;p&gt;From the Password Reset screen, when I provided a valid email, I was redirected to &lt;a href=&quot;https://www.airbnb.com/login?email=legit%40email.biz&quot;&gt;&lt;code&gt;/login?email=legit%40email.biz&lt;/code&gt;&lt;/a&gt;. Using a query-string parameter, my email was prefilled. Fantastic.&lt;/p&gt;
+&lt;h4 id=&quot;-bad&quot;&gt;☹ Bad&lt;/h4&gt;
+&lt;p&gt;From the &lt;a href=&quot;https://www.airbnb.com/&quot;&gt;homepage&lt;/a&gt;, upon clicking “Sign Up” and “Log In” modals appeared. However, the URLs didn’t change, which means zero linkability and zero history. Upon pressing the back button, instead of a modal just disappearing and the URL reverting back, I was instead thrown totally out of Airbnb. This could all be remedied by using &lt;code&gt;history.pushState&lt;/code&gt;. The same issue occurred when I pressed the “Forgot password?” link from the Log-In screen.&lt;/p&gt;
+&lt;p&gt;Googling for &lt;a href=&quot;https://www.google.com/search?q=site:airbnb.com%20log%20in&quot;&gt;&lt;code&gt;site:airbnb.com log in&lt;/code&gt;&lt;/a&gt; turned up a &lt;a href=&quot;https://www.airbnb.com/login&quot;&gt;Log-In page&lt;/a&gt; and a &lt;a href=&quot;https://www.airbnb.com/signup_login&quot;&gt;Signup page&lt;/a&gt;. And, heck, there was even a &lt;a href=&quot;https://www.airbnb.com/forgot_password&quot;&gt;Password Reset page&lt;/a&gt;. These are standalone, modal-less pages that appeared to be linked to from only support pages and legacy pages that predated Airbnb’s “Belong Anywhere” redesign (July 2014).&lt;/p&gt;
+&lt;p&gt;The Password Reset form relied on placeholder text (“Email” with an “@” icon on the right side of the input) instead of an always-present form label. When a field was focussed, unless I had paid good attention, I forgot what the field. Select all. Backspace. Oh. Right.&lt;/p&gt;
+&lt;p&gt;From the Password Reset screen, when I provided a bogus email, I was redirected to &lt;a href=&quot;https://www.airbnb.com/login?email=bogus%40email.biz&quot;&gt;&lt;code&gt;/login?email=bogus%40email.biz&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;No account exists for bogus@email.biz. Maybe you signed up using a different/incorrect e-mail address.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Airbnb is leaking information about which email addresses have Airbnb accounts.&lt;/p&gt;
+&lt;p&gt;I was unable to find any evidence of ratelimiting or CAPTCHAs.&lt;/p&gt;
+&lt;h4 id=&quot;consensus&quot;&gt;Consensus&lt;/h4&gt;
+&lt;p&gt;3.5/5 ★★★☆☆&lt;/p&gt;
+&lt;p&gt;From its homepage, Airbnb’s Password Reset flow passed all five user flows with flying colours. It was fast, simple, and always remembered my email.&lt;/p&gt;
+&lt;p&gt;However, when resetting a password from the standalone, synchronous page, the first three user flows failed.&lt;/p&gt;
+&lt;h3 id=&quot;amazon&quot;&gt;Amazon&lt;/h3&gt;
+&lt;p&gt;&lt;small class=&quot;url&quot;&gt;&lt;a href=&quot;https://www.airbnb.com/&quot;&gt;https://www.airbnb.com/&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-good&quot;&gt;☺ Good&lt;/h4&gt;
+&lt;p&gt;The email field correctly used &lt;code&gt;[type=email]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;CAPTCHA was used (although not ideally).&lt;/p&gt;
+&lt;p&gt;When I correctly completed the CAPTCHA and entered an email that was not registered with Amazon, I received this error:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Enter the characters as they are shown in the image.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Although the error message was misleading, at least Amazon didn’t leak user info.&lt;/p&gt;
+&lt;h4 id=&quot;-bad&quot;&gt;☹ Bad&lt;/h4&gt;
+&lt;p&gt;Unfortunately, my email address was never preserved.&lt;/p&gt;
+&lt;p&gt;Instead of ratelimiting the page and presenting a CAPTCHA after a few log-in failures, Amazon always shows a CAPTCHA on the Password Reset page. (Not there should be, but I’m curious why there’s not also CAPTCHA on the Log-In page [presumably to thwart spamming people with Password Reset emails].)&lt;/p&gt;
+&lt;p&gt;Clicking the “Sign in” link from Amazon’s homepage redirected me to a comically long URL:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://www.amazon.com/ap/signin/181-7787942-3643323?_encoding=UTF8&amp;amp;openid.assoc_handle=usflex&amp;amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;openid.mode=checkid_setup&amp;amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;amp;openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&amp;amp;openid.pape.max_auth_age=0&amp;amp;openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_signin
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I tried &lt;a href=&quot;https://www.amazon.com/ap/signin/181-7787942-3643323&quot;&gt;stripping everything after the query string&lt;/a&gt;, and I got a 404. I tried &lt;a href=&quot;https://www.amazon.com/ap/signin/&quot;&gt;stripping the ID&lt;/a&gt;, and I still got a 404.&lt;/p&gt;
+&lt;p&gt;Clicking the “Forgot your password?” link returned a similarly complicated URL. Not only is this bad for linkability and troubleshooting, but when refreshing the Log-In page after forgetting my password, since I didn’t want my browser to resubmit the form, I tried manually hard-refreshing the page but again got a 404.&lt;/p&gt;
+&lt;p&gt;A bit of Googling turned up the URL for the &lt;a href=&quot;https://www.amazon.com/gp/sign-in.html&quot;&gt;Log-In page&lt;/a&gt; and the &lt;a href=&quot;http://www.amazon.com/exec/obidos/self-service-forgot-password-get-email&quot;&gt;Password Reset page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;&amp;lt;label&amp;gt;&lt;/code&gt; for the Email field doesn’t work, since its &lt;code&gt;for&lt;/code&gt; attribute is &lt;code&gt;ap_fpp_email&lt;/code&gt; and the Email field’s &lt;code&gt;id&lt;/code&gt; is actually &lt;code&gt;ap_email&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;For a few weeks, I was being served &lt;a href=&quot;https://twitter.com/lukew/status/505080906994814976&quot;&gt;Amazon’s redesigned pages&lt;/a&gt;, but I still encountered all of the same issues and my email was still not preserved.&lt;/p&gt;
+&lt;h4 id=&quot;consensus&quot;&gt;Consensus&lt;/h4&gt;
+&lt;p&gt;1/5 ★☆☆☆☆&lt;/p&gt;
+&lt;p&gt;Amazon’s Password Reset flow failed on every user flow, except the last one: when using a different email address, my original one wasn’t preserved. But my first email address wasn’t preserved either, so through that technicality this flow did manage to earn 1 star.&lt;/p&gt;
+&lt;h3 id=&quot;facebook&quot;&gt;Facebook&lt;/h3&gt;
+&lt;p&gt;&lt;small class=&quot;url&quot;&gt;&lt;a href=&quot;https://www.facebook.com/&quot;&gt;https://www.facebook.com/&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-good&quot;&gt;☺ Good&lt;/h4&gt;
+&lt;p&gt;From the &lt;a href=&quot;https://www.facebook.com/recover/initiate&quot;&gt;Password Reset page&lt;/a&gt;, Facebook allowed me to type in my email, phone, username, or full name so I could be emailed a link or texted a code to reset to reset my password. For legitimate use cases, this is a good experience, but I can’t help but think this could be avoided by merely preserving the original value in the Email/Phone field.&lt;/p&gt;
+&lt;p&gt;After many repetitive requests, a CAPTCHA lightbox appears.&lt;/p&gt;
+&lt;h4 id=&quot;-bad&quot;&gt;☹ Bad&lt;/h4&gt;
+&lt;p&gt;Unfortunately, my email address was never preserved.&lt;/p&gt;
+&lt;p&gt;For the Email/Phone field, &lt;code&gt;type=&amp;quot;text&amp;quot;&lt;/code&gt; was used. This is technically correct, but when viewed on the mobile site (instead from the native app), the keyboard makes it slightly more difficult to enter an email address or a phone number.&lt;/p&gt;
+&lt;p&gt;The Email/Phone and Password fields use &lt;code&gt;&amp;lt;label&amp;gt;&lt;/code&gt;s correctly for &lt;a href=&quot;https://www.facebook.com/login&quot;&gt;logging in&lt;/a&gt;, but the field on the &lt;a href=&quot;https://blog.cvan.io/articles/password-resets/[Password%20Reset%20page](https://www.facebook.com/recover/initiate&quot;&gt;Password Reset page&lt;/a&gt; does not.&lt;/p&gt;
+&lt;p&gt;Although the &lt;a href=&quot;https://www.facebook.com/recover/initiate&quot;&gt;Password Reset page&lt;/a&gt; is very helpful when someone legitimately forgets his/her password, I was able to type in anyone’s email, phone, username, or full name to see if that person had a Facebook account. I was also able to see masked (e.g., &lt;code&gt;h*****e@gmail.com&lt;/code&gt; and &lt;code&gt;+********08&lt;/code&gt;) emails and phone numbers, as well as the user’s networks and profile photo (if the user’s privacy settings permitted such).&lt;/p&gt;
+&lt;p&gt;When a user’s profile photo was shown, Facebook told me this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You can see your name and profile picture because you’re using a computer network you’ve logged in on before.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;But that seemed to be untrue from my testing. I’m curious how the privacy settings for this are wired behind the scenes.&lt;/p&gt;
+&lt;p&gt;Although in my test case, Facebook did not preserve a different user’s email address after attempting to log in, when I initiated a &lt;a href=&quot;https://blog.cvan.io/articles/password-resets/[Password%20Reset%20page](https://www.facebook.com/recover/initiate&quot;&gt;password reset&lt;/a&gt; but abandoned the flow, Facebook did remember my attempted password reset. This data is stored in a cookie called &lt;code&gt;sfiu&lt;/code&gt;. I can either clear this cookie or press the “Not you?” link to tell Facebook to forget my attempted password reset. I considered adjusting my test case, but I think that goes beyond a normal user flow.&lt;/p&gt;
+&lt;p&gt;In conclusion, and as mentioned above, this wouldn’t be necessary if the original Email/Phone was persisted before redirecting a user to the Password Reset page.&lt;/p&gt;
+&lt;h4 id=&quot;consensus&quot;&gt;Consensus&lt;/h4&gt;
+&lt;p&gt;1/5 ★☆☆☆☆&lt;/p&gt;
+&lt;p&gt;Facebook not only doesn’t preserve email addresses, but it also exposes considerable user info. in its Password Reset flow. Overall, it could use a lot of work.&lt;/p&gt;
+&lt;h3 id=&quot;github&quot;&gt;GitHub&lt;/h3&gt;
+&lt;p&gt;&lt;small class=&quot;url&quot;&gt;&lt;a href=&quot;https://github.com/login&quot;&gt;https://github.com/login&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-good&quot;&gt;☺ Good&lt;/h4&gt;
+&lt;p&gt;My email was preserved only in this particular case (user flow #4): At the Log In screen, when I provided both my email and password, submitted the form, and then clicked the “forgot password” link.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;label&amp;gt;&lt;/code&gt;s were used correctly.&lt;/p&gt;
+&lt;p&gt;After too many attempts, I saw this error message on the &lt;a href=&quot;https://github.com/password_reset&quot;&gt;Password Reset page&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Too many attempts. Please wait a while and try again.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;-bad&quot;&gt;☹ Bad&lt;/h4&gt;
+&lt;p&gt;GitHub had the right idea to preserve usernames/emails, but it relied on server-side logic (see screencast for user flow #4). What happened here? When the form was submitted, the server did a few validation checks, and it went something like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;if (formEmail and formPassword) {
+  if (checkPassword(formPassword, dbPassword)) {
+    // Log the user in.
+  } else {
+    // Set a Set-Cookie header for `_gh_sess` which is a unique identifier that corresponds to a session that&amp;#39;s saved temporarily in a database.
+  }
+} else {
+  // Redirect to https://github.com/session and return an error message: &amp;quot;Incorrect username or password.&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;On the client:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;if (session &amp;amp;&amp;amp; session.email) {
+  // Get the user&amp;#39;s email and update `value` of the email field.
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;How can we fix this?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;After I leave the Forgot Password page, clear the session cookie so it doesn’t accidentally show up later for someone else.&lt;/li&gt;
+&lt;li&gt;Relying on a form submit is not ideal, because the user may click the “forgot password” link before submitting the form. If we do decide to stick with using the server cookie, then we need to (1) first hide the “forgot password” link until the form has been POSTed to the server and (2) make sure that we persist the email in the cookie even if validation failed (the email and/or password fields were blank).&lt;/li&gt;
+&lt;li&gt;Alternatively, use a query-string parameter or &lt;code&gt;sessionStorage&lt;/code&gt; to remember the last email attempt when we are taken to the Forgot Password page. (And be sure to clear the value in &lt;code&gt;sessionStorage&lt;/code&gt; when the user leaves the page, by listening to &lt;code&gt;window&lt;/code&gt;‘s &lt;code&gt;beforeunload&lt;/code&gt; event.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also what happens if I forget my email/username? There are no additional links to get support.&lt;/p&gt;
+&lt;p&gt;On a different note, on the &lt;a href=&quot;https://github.com/password_reset&quot;&gt;Password Reset page&lt;/a&gt;, I saw this error message when I provided an invalid email address:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Can’t find that email, sorry.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It’s worth noting that this case is handled appropriately from the Log-In page:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Incorrect username or password.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;consensus&quot;&gt;Consensus&lt;/h4&gt;
+&lt;p&gt;1/5 ★☆☆☆☆&lt;/p&gt;
+&lt;p&gt;GitHub had the right idea to preserve usernames/emails, but it relied on server-side logic. Move that logic to the client side, add some help links, and we’d be in good shape.&lt;/p&gt;
+&lt;h3 id=&quot;google&quot;&gt;Google&lt;/h3&gt;
+&lt;p&gt;&lt;small class=&quot;url&quot;&gt;&lt;a href=&quot;https://accounts.google.com/ServiceLogin&quot;&gt;https://accounts.google.com/ServiceLogin&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-good&quot;&gt;☺ Good&lt;/h4&gt;
+&lt;p&gt;When I submitted the Log-In form, even when the password field was blank, my email was preserved on the &lt;a href=&quot;https://www.google.com/accounts/recovery/&quot;&gt;Password Reset page&lt;/a&gt; (user flow #3). It was quite nice to see this working (as long as I submitted the form).&lt;/p&gt;
+&lt;p&gt;When trying to log in with an invalid email (or password), I encountered a good generic error message:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The email or password you entered is incorrect.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;-bad&quot;&gt;☹ Bad&lt;/h4&gt;
+&lt;p&gt;To my surprise, Google actually reported whether or not the email existed:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;No account found with that email address.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Continuing the password-reset flow for someone else’s account exposed the user’s name and a masked phone number.&lt;/p&gt;
+&lt;p&gt;On a separate note, this step seemed unnecessary (especially since it was optional): “Enter the last password you remember.”&lt;/p&gt;
+&lt;h4 id=&quot;consensus&quot;&gt;Consensus&lt;/h4&gt;
+&lt;p&gt;3/5 ★★★☆☆&lt;/p&gt;
+&lt;p&gt;Quite good. I was a bit surprised by the leaky password info.&lt;/p&gt;
+&lt;h3 id=&quot;kickstarter&quot;&gt;Kickstarter&lt;/h3&gt;
+&lt;p&gt;&lt;small class=&quot;url&quot;&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-good&quot;&gt;☺ Good&lt;/h4&gt;
+&lt;h4 id=&quot;-bad&quot;&gt;☹ Bad&lt;/h4&gt;
+&lt;p&gt;The link to the Password Reset page was hard to find. (Give up? It’s the &lt;strong&gt;?&lt;/strong&gt; in the Password field.)&lt;/p&gt;
+&lt;h4 id=&quot;consensus&quot;&gt;Consensus&lt;/h4&gt;
+&lt;p&gt;1/5 ★☆☆☆☆&lt;/p&gt;
+&lt;h3 id=&quot;pinterest&quot;&gt;Pinterest&lt;/h3&gt;
+&lt;p&gt;&lt;small class=&quot;url&quot;&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-good&quot;&gt;☺ Good&lt;/h4&gt;
+&lt;h4 id=&quot;-bad&quot;&gt;☹ Bad&lt;/h4&gt;
+&lt;p&gt;My email was preserved, but only when both my email and password were filled out and the form was submitted. I was redirected to &lt;a href=&quot;https://www.pinterest.com/login/reset/?username_or_email=legit%40email.biz&quot;&gt;&lt;code&gt;/login/reset/?username_or_email=legit%40email.biz&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After three failed password attempts, the fourth attempt redirected me to this URL: &lt;a href=&quot;https://www.pinterest.com/login/reset/?username_or_email=legit%40email.biz&quot;&gt;&lt;code&gt;/login/reset/?username_or_email=legit%40email.biz&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;consensus&quot;&gt;Consensus&lt;/h4&gt;
+&lt;p&gt;2/5 ★★☆☆☆&lt;/p&gt;
+&lt;h3 id=&quot;twitter&quot;&gt;Twitter&lt;/h3&gt;
+&lt;p&gt;&lt;small class=&quot;url&quot;&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-good&quot;&gt;☺ Good&lt;/h4&gt;
+&lt;p&gt;Most sites seem to overlook the case where the form hasn’t been submitted yet. Not Twitter though.&lt;/p&gt;
+&lt;p&gt;How’s it work?&lt;/p&gt;
+&lt;p&gt;It hijacks the click and sets &lt;code&gt;window.location.href&lt;/code&gt; to &lt;code&gt;https://twitter.com/account/begin_password_reset?account_identifier=email@domain.com&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Clicking on “Forgot password?” appends the email as a query-string parameter to the link before taking you to the Forgot Password page.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/account/begin_password_reset?account_identifier=legit@email.biz&quot;&gt;https://twitter.com/account/begin_password_reset?account_identifier=legit@email.biz&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-bad&quot;&gt;☹ Bad&lt;/h4&gt;
+&lt;p&gt;Although Twitter handles the first two user flows like a champ, it fails on arguably the most common flows: #3 and #4 (preservation after submission).&lt;/p&gt;
+&lt;h4 id=&quot;consensus&quot;&gt;Consensus&lt;/h4&gt;
+&lt;p&gt;3/5 ★★☆☆☆&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Next time you build a Password Reset form, take note:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If a user is prompted for email/username, always preserve the value on the Password Reset form (at the bare minimum, handling the aforementioned five user flows).&lt;ul&gt;
+&lt;li&gt;Cookies are unnecessary. Use query-string parameters or &lt;code&gt;sessionStorage&lt;/code&gt; (but remember to clear the value when the user navigates away).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Use proper input types (&lt;code&gt;type=&amp;quot;email&amp;quot;&lt;/code&gt; for email or &lt;code&gt;type=&amp;quot;text&amp;quot;&lt;/code&gt; for username). (Bonus points for input hints, such as autocompleting &lt;code&gt;@gmail.com&lt;/code&gt;.)&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;pushState&lt;/code&gt; when redirecting to the Password Reset page from the Log-In/Register page.&lt;/li&gt;
+&lt;li&gt;Use form &lt;code&gt;&amp;lt;label&amp;gt;&lt;/code&gt;s and &lt;code&gt;placeholder&lt;/code&gt; text appropriately.&lt;/li&gt;
+&lt;li&gt;Use inline form validation for success and error messages.&lt;/li&gt;
+&lt;li&gt;Do not leak user info. for invalid emails (e.g., “A user with that email does not exist”).&lt;/li&gt;
+&lt;li&gt;Ratelimit many repetitive requests (start with &lt;em&gt;reasonable&lt;/em&gt; time-based ratelimiting and use CAPTCHAs as a very last resort; be sure to log all attempts).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Flexsort: Using Flexbox to sort search results</title>
+      <link>https://blog.cvan.io/articles/flexsort-using-flexbox-to-sort-search-results/</link>
+      <pubDate>Tue, 08 Apr 2014 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.cvan.io/articles/flexsort-using-flexbox-to-sort-search-results/</guid>
+      <author></author>
+      <description>&lt;p&gt;Most sites that use search allow you to sort by a particular criterion such as price or year. When you sort by a particular criterion, most sites either synchronously load a new page or update the DOM right then and there.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;With the former approach, you are wasting time and bandwidth: at least one request has to be made for the HTML document, not to mention all the other resources requested on that page. You can do better by becoming a true single-paged app, so that you only request new content as needed.&lt;/p&gt;
+&lt;p&gt;With the latter approach, you can request from the server an HTML fragment or ideally JSON (which is used to render a template using JS) to replace the HTML of the results area. This isn’t a terrible method, but DOM manipulations are expensive. You could take a less naïve approach and keep in memory the DOM of each element and change only those elements that you need to. &lt;a href=&quot;http://facebook.github.io/react/&quot;&gt;Facebook’s React&lt;/a&gt; is a framework that keeps in memory a virtual DOM and does a difference of the HTML before and after to make only the absolutely necessary DOM manipulations.&lt;/p&gt;
+&lt;p&gt;Instead of physically rearranging existing DOM nodes, or destroying existing nodes and re-rendering new ones, we can reorder the search results using just one CSS property: flexbox’s &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/order&quot;&gt;&lt;code&gt;order&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And there you have it! Flexsort: the ability to render sorted data without having to reconstitute the DOM.&lt;/p&gt;
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+&lt;p&gt;This is a basic, no-frills example of sorting ordered data using flexsort.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cvan.io/flexbox-sort/&quot;&gt;&lt;big&gt;&lt;strong&gt;Try out the demo.&lt;/strong&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;/articles/flexsort-using-flexbox-to-sort-search-results/flexbox-sort-1.png&quot; alt=&quot;Screenshot of flexbox-sort demo&quot; title=&quot;Screenshot of flexbox-sort demo&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;getting-fancy&quot;&gt;Getting fancy&lt;/h2&gt;
+&lt;p&gt;It’s you’re feeling up for it, try these at home:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Allow a user to reverse the sort order.&lt;/li&gt;
+&lt;li&gt;Instead of just basic ordering, allow results to also be filtered by simply hiding and showing the elements as needed (using the CSS property &lt;code&gt;display&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Implement flexsort on a massive table, allowing the rows to be sorted by clicking on a column.&lt;/li&gt;
+&lt;li&gt;For improved navigation, hijack the browser history using the History API (i.e., &lt;code&gt;pushState&lt;/code&gt;) to include a querystring in the URL (e.g., &lt;code&gt;?sort=year&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Handle pagination (for the bravest of the brave).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;caveats&quot;&gt;Caveats&lt;/h2&gt;
+&lt;p&gt;If you’re dealing with big data (tens of thousands of rows), be careful about keeping too much HTML on a single page.&lt;/p&gt;
+&lt;p&gt;If you copy the entire document to your clipboard, you’ll notice that the pasted text appears in the order in which the text is represented in the DOM, not in the visual order set by flexbox.&lt;/p&gt;
+&lt;p&gt;You can still select the text content of each flexbox-ordered item — just not text that overlaps to another flexbox-ordered item.&lt;/p&gt;
+&lt;p&gt;If you print the document, the visual order set by flexbox order is preserved. But why are you printing this? And why do you still own a printer?&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>

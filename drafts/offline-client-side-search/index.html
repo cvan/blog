@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://blog.cvan.io/css/main.css">
+    <title>Offline, client-side search | cvan’s blog
+    </title>
+    <link rel="alternate" href="https://blog.cvan.io/feed.xml" type="application/rss+xml">
+  </head>
+  <body class="article-detail">
+    <div class="wrap">
+      <header class="header c">
+        <div class="content-wrap">
+          <header class="related related-header c"><a href="/" class="related-link related-centre-link"><span class="finger finger-left">☚</span>Return to blog</a>
+          </header>
+          <header class="page-title">
+            <h1>Offline, client-side search</h1>
+            <p class="author">Written by <span class="author">cvan</span> on 
+              <time>7 May 2014</time>
+            </p>
+          </header>
+        </div>
+      </header>
+      <main id="content" class="content">
+        <div class="content-wrap">
+          <article class="article">
+            <section class="content"><p>I always try to avoid round trips to the server whenever possible. Naturally, I’m a fan of offline, client-side filtering and searching. And by offline, I mean the search is done without making a network request. There are a few libraries in the wild to achieve this. My library of choice is <a href="http://lunrjs.com/">lunr.js</a>.</p>
+<p>The typical procedure goes something like<span class="widont">&nbsp;</span>this:</p>
+<ol>
+<li>Make an <code>XMLHttpRequest</code> <code>GET</code> request to retrieve a <span class="caps">JSON</span> document containing an array of objects (aka search documents), each containing a unique identifier (such as <code>_id</code>).</li>
+<li><code>JSON.parse</code> the response body to get an array of<span class="widont">&nbsp;</span>objects.</li>
+<li>Initialise your filtering/searching script (which ideally should live in a web<span class="widont">&nbsp;</span>worker).</li>
+<li>Populate a search index by passing the array of objects to your search indexer, which takes care of creating an inverted index and so forth and so<span class="widont">&nbsp;</span>on.</li>
+<li>Web worker <code>postMessage</code>s back to the main script to announce that the search index is populated and ready for<span class="widont">&nbsp;</span>queries.</li>
+<li>The results area is replaced with generated <span class="caps">HTML</span> for each list item (e.g., <code>document.querySelector(&#39;ul.results&#39;).innerHTML = resultsHTML</code>).</li>
+<li>Search queries (typically, upon keypress in an <code>input[type=search]</code> field) are passed to the search web<span class="widont">&nbsp;</span>worker.</li>
+<li>Web worker <code>postMessage</code>s back to the main script an array of ids, which corresponds to ids of the search documents that match the given query (sorted by<span class="widont">&nbsp;</span>relevance).</li>
+<li>Based on the new results, the main script replaces the <code>innerHTML</code> of the results area again. (You could keep in memory the <span class="caps">DOM</span> of each element and change only those that you need to. Consider looking at <a href="http://facebook.github.io/react/">Facebook’s React</a>, which sports a fancy algorithm that keeps in memory virtual <span class="caps">DOM</span> and does a difference of the <span class="caps">HTML</span> before and after to make only the absolutely necessary <span class="caps">DOM</span> manipulations. Or you could use <a href="/css/flexbox/perf/2014/05/07/flexsort-using-flexbox-to-sort-search-results.html">flexsort</a>, the most clever technique ever<span class="widont">&nbsp;</span>invented.)</li>
+</ol>
+<h2 id="demo">Demo</h2>
+<p>This is a basic example of client-side search using lunr.js. In this example, I follow the approach above, firing off an <span class="caps">XHR</span> to fetch a <span class="caps">JSON</span> blob, which is then indexed into lunr.js and queried against via the web<span class="widont">&nbsp;</span>worker.</p>
+<p>I also cache the search results by keeping a simple <span class="caps">JS</span> object in memory to serve as a hashtable of the queried search terms and the corresponding IDs of results matched. Any subsequent searches for the same term become near instanteous because we no longer need to call the web worker (which in turn calls<span class="widont">&nbsp;</span>lunr.js).</p>
+<p><a href="http://cvan.github.io/offline-search">Try out the<span class="widont">&nbsp;</span>demo.</a></p>
+<h2 id="getting-fancy">Getting fancy</h2>
+<p>Some activities to try at<span class="widont">&nbsp;</span>home:</p>
+<ul>
+<li>Use AppCache (soon Service Worker) to cache the assets, including the <span class="caps">JSON</span> blob, so that search works completely<span class="widont">&nbsp;</span>offline.</li>
+<li>For truly offline search, save the <span class="caps">JSON</span> blob locally using localStorage or IndexedDB (check out <a href="https://github.com/mozilla/localForage">localForage</a>, a simple asynchronous key-value store using<span class="widont">&nbsp;</span>IndexedDB).</li>
+<li>Handle pagination (for the bravest of the<span class="widont">&nbsp;</span>brave).</li>
+</ul>
+</section>
+          </article>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="content-wrap">
+          <div class="related related-footer c">
+            <ul class="related-list">
+              <li class="related-item">
+              </li>
+              <li class="related-item"><a href="/archive/" class="related-link related-centre-link"><span class="link-inner"><span class="finger finger-right finger-right-inward">☛</span>Archive<span class="finger finger-left finger-left-inward">☚</span></span></a>
+              </li>
+              <li class="related-item">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://blog.cvan.io/js/main.js"></script>
+  </body>
+</html>

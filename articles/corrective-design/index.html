@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://blog.cvan.io/css/main.css">
+    <title>Corrective Design | cvan’s blog
+    </title>
+    <link rel="alternate" href="https://blog.cvan.io/feed.xml" type="application/rss+xml">
+  </head>
+  <body class="article-detail">
+    <div class="wrap">
+      <header class="header c">
+        <div class="content-wrap">
+          <header class="related related-header c"><a href="/" class="related-link related-centre-link"><span class="finger finger-left">☚</span>Return to blog</a>
+          </header>
+          <header class="page-title">
+            <h1>Corrective Design</h1>
+            <p class="author">Written by <span class="author">cvan</span> on 
+              <time>26 March 2015</time>
+            </p>
+          </header>
+        </div>
+      </header>
+      <main id="content" class="content">
+        <div class="content-wrap">
+          <article class="article">
+            <section class="content"><p>I like applications that correct me when I make<span class="widont">&nbsp;</span>mistakes.</p>
+<h2 id="forgiving-inputs">Forgiving inputs</h2>
+<p>Don’t make the user do string replacing and pattern matching. That’s something the application can do<span class="widont">&nbsp;</span>instead.</p>
+<p>Hypothetically, a site asks for a phone number with a specific pattern: a string prefixed with a <code>+</code> followed by 10 digits. If I enter <code>650 555 1212</code>, the application should be smart<span class="widont">&nbsp;</span>enough</p>
+<ul>
+<li>to strip any non-numeric character (e.g., spaces, dots, hyphens, parentheses, slashes),<span class="widont">&nbsp;</span>and</li>
+<li>to automatically prefix with a common default (<code>+1</code> for a site with mostly <span class="caps">US</span> visitors, <code>+44</code> for a site with mostly German<span class="widont">&nbsp;</span>visitors).</li>
+</ul>
+<p>(I actually reported this issue to Authy, with these recommendations, and they said they couldn’t fix<span class="widont">&nbsp;</span>it.)</p>
+<h2 id="catching-mistakes">Catching mistakes</h2>
+<p>When requesting a ride from Uber, the application guesses and prefills your pickup location. Often times this is wrong, especially in apartment complexes and city streets near tall<span class="widont">&nbsp;</span>buildings.</p>
+<p>As such, I’ve gotten into the habit of manually entering my pickup location. The next screen asks for your dropoff<span class="widont">&nbsp;</span>location.</p>
+<p>On more than two occasions, I misentered my pickup as my dropoff location. I would then have to cancel my Uber ride, resulting in a $5 cancellation fee (and usually a confused<span class="widont">&nbsp;</span>driver).</p>
+<p>I realise many will say it’s my mistake for not reading things closely. It’s my opinion that the application should be resilient, forgiving, and<span class="widont">&nbsp;</span>intelligent.</p>
+<p>After entering your pickup and dropoff locations, the application could easily check your relative distance from each location and then display a confirmation warning if things look<span class="widont">&nbsp;</span>suspicious.</p>
+<p>(I also reported this issue to Uber, with this recommendation, and they said they would keep it in<span class="widont">&nbsp;</span>mind.)</p>
+<hr>
+
+<p>Don’t punish your users for just wanting to use your app and get on with their lives. Forgive them, and they’ll forgive you. Your users aren’t perfect, and neither is your<span class="widont">&nbsp;</span>app.</p>
+</section>
+          </article>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="content-wrap">
+          <div class="related related-footer c">
+            <ul class="related-list">
+              <li class="related-item">
+              </li>
+              <li class="related-item"><a href="/archive/" class="related-link related-centre-link"><span class="link-inner"><span class="finger finger-right finger-right-inward">☛</span>Archive<span class="finger finger-left finger-left-inward">☚</span></span></a>
+              </li>
+              <li class="related-item">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://blog.cvan.io/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://blog.cvan.io/css/main.css">
+    <title>Forget Passwords: Passwordless Login | cvan’s blog
+    </title>
+    <link rel="alternate" href="https://blog.cvan.io/feed.xml" type="application/rss+xml">
+  </head>
+  <body class="article-detail">
+    <div class="wrap">
+      <header class="header c">
+        <div class="content-wrap">
+          <header class="related related-header c"><a href="/" class="related-link related-centre-link"><span class="finger finger-left">☚</span>Return to blog</a>
+          </header>
+          <header class="page-title">
+            <h1>Forget Passwords: Passwordless Login</h1>
+            <p class="author">Written by <span class="author">cvan</span> on 
+              <time>21 May 2014</time>
+            </p>
+          </header>
+        </div>
+      </header>
+      <main id="content" class="content">
+        <div class="content-wrap">
+          <article class="article">
+            <section class="content"><p>Forgot password? No, forget<span class="widont">&nbsp;</span>passwords.</p>
+<p>Passwords are the worst. These days nearly every site and app asks you to sign up and sign in. Some aren’t even polite about it. You want to buy those new kicks? You want to read this salacious forum post? You want free wifi so you don’t have to make smalltalk with strangers at the café? Go create an account and then maybe we’ll think about<span class="widont">&nbsp;</span>it.</p>
+<p>Two lessons before we continue: try really, really hard to figure out how to save user state and try to never ever block a user on login unless special permissions are needed. Envision how your site or app would function if there were no email/username/password<span class="widont">&nbsp;</span>fields.</p>
+<p>Given that today’s Internet also lacks any sort of agreed-upon standard of and implementation of an authentication protocol, most login systems are custom made (and of questionable security and stability). Sure, OpenID is doing its thing, but ease of use and lack of adoption have made it an unattractive solution for developers and users alike. Mozilla’s Persona was an attempt to have a distributed authentication using your email address as the primary identifier, allowing certain vetted sources (e.g., Mozilla, Google) to authorize login by verifying cryptographically signed assertions. A good idea but again I still have to know one password to sign in on other sites (not unlike Facebook Connect and<span class="widont">&nbsp;</span>Google+).</p>
+<p>Persona’s original goal was to be one-click login implemented in the browser chrome, which as of this writing, has not been shipped to users. Google, as of this writing, has introduced in beta builds of Chrome the ability to sign in to your Google+ account directly from the browser chrome of Chrome. This allows you to more easily sign into Google services, but it doesn’t solve the issue of authentication for sites not wanting to play with<span class="widont">&nbsp;</span>Google.</p>
+<p>Then there’s third-party authentication wherein you sign in to some web site using your existing Facebook, Google+, Twitter, GitHub, Pinterest, whatever account. Sure, now you don’t need to come up with and remember yet another password, and if you’re lucky you also get to spend a couple minutes coming up with a username that’s not taken. But I digress. That aside, those third parties now have data about which web sites you’re signing in to, how long you’re there for, and so on, not to mention possibly your account data on that web site (and vice-versa — your third-party account on that web<span class="widont">&nbsp;</span>site).</p>
+<p>I like Facebook Connect because it means I don’t have to remember yet another password, but I don’t like the privacy implications of my personal Facebook being associated with some random site. Facebook has introduced a new system called “Anonymous Login,” but in my opinion I want all ties severed between Facebook and some random site. But Facebook loves that partnership because, well,<span class="widont">&nbsp;</span>data.</p>
+<p>What’s a possible solution? Have a third-party with no affiliation take care of signing you into web sites, and that’s it. Limit the data they get and use them for one purpose — verifying your identity. Unsurprisingly, there are countless companies offering passwordless login by way of single-use tokens. In the previous century, <span class="caps">RSA</span> introduced to the enterprise market keys which have a randomly generated key (rotated every minute) that you punch into a web site/program, which then gets verified against <span class="caps">RSA</span>’s <span class="caps">API</span> and decides whether or not you get<span class="widont">&nbsp;</span>access.</p>
+<p>What’s the catch? Nearly every single one of these companies pushes you to sign up for an account (ironic), install their app on your phone (or install some add-on/program on your desktop) just to be able to log in to another web site. It’s unnecessary friction. Not to mention adoption issues: in order for the service to be useful, the company has to convince web sites to ditch whichever login system they’re using now (or supplement their existing one), both of which have not minor <span class="caps">UX</span><span class="widont">&nbsp;</span>implications.</p>
+<p>Some might say password managers are the solution. In the past, I’ve used LastPass and 1Password, the latter for a few years. If, unlike me, you use a single browser on a single device for everything you do (and you keep regular backups, but of course you do), you’re golden. Both Chrome and Firefox do a decent job at remembering your passwords. They’re both pretty good at guessing which fields are email/username/password fields and remembering their values. They’re both pretty good at syncing your passwords (along with tabs and bookmarks) with your browser on your mobile<span class="widont">&nbsp;</span>device.</p>
+<p>Now, what happens when you have multiple copies of your browser, private browser sessions, different browsers. What if you’re entering your username/password in a native app that has embedded a web view? Your browser isn’t going to remember that when you close the native app, since the embedded WebKit/Gecko browser has no knowledge of the browser where your normal browser profile<span class="widont">&nbsp;</span>lives.</p>
+<p>One would hope that the operating system itself could just remember all the logins/passwords ever used and tie them to the current user account. What happens when you’re at an Internet café (yes, they still exist) and need to read your Hotmail (yes, it also still exists)? Add syncing à la iCloud or allow the credentials database to be exported to a (hopefully password-protected) flat file (for the record, 1Password can export to a “password-protected” <span class="caps">HTML</span><span class="widont">&nbsp;</span>document).</p>
+<p>Anyway, the thing is Apple has built this into Mac <span class="caps">OS</span> X. Wifi passwords, application passwords, passwords saved with Chrome and Safari (not yet with Firefox) interact with Apple’s Keychain, which will show a password prompt asking you for the master password. You can later access this database using a program in the “Utilities” folder called “Keychain<span class="widont">&nbsp;</span>Access.”</p>
+<p>Apple’s Keychain is one of the best attempts at login unification, but adoption is not universal (Firefox doesn’t use it, nor do many third-party native Mac apps) and the syncing story simply isn’t there (yet). And what about Windows and Linux? The Keychain should be device- and platform-agnostic, but currently it just sits nicely tucked away on your Apple<span class="widont">&nbsp;</span>desktop.</p>
+<p>There will likely never be a single authentication app, so users may have to install several authentication apps to log in to various websites. And today, authentication keychains built into the <span class="caps">OS</span> are not interoperable across any platform and any<span class="widont">&nbsp;</span>device.</p>
+<p>There are two things that are used almost universally: email and <span class="caps">SMS</span>. Almost everyone trusts his/her email account with his/her life. And every web site knows that. That’s why email is most commonly your unique identifier, why you get email confirmations sent there, why you get password reset links sent there, and so on. Then there’s <span class="caps">SMS</span>. As the world gets increasingly more mobile, and more people secure their phones with PINs (and not stupid ones) and don’t have public notifications visible from the lockscreen, <span class="caps">SMS</span> can become a source of trust for<span class="widont">&nbsp;</span>authentication.</p>
+<p>You could continue to rely on your guaranteed-foolproof memory (or your password manager or the sheet of paper you keep tucked under your mattress or the Moleskine you keep buried in your backyard garden). Most people solve this issue by using the same password everywhere, choosing basic passwords, or coming up with a mnemonic device (like an easy-to-remember phrase + random characters + characters derived from the name of the site). Why not instead just tie authentication directly to a user’s email or phone (whichever the user trusts more). In today’s Web landscape, a user’s email is considered the most authoritative identifier of a user’s<span class="widont">&nbsp;</span>identity.</p>
+<p>Today’s typical registration<span class="widont">&nbsp;</span>flow:</p>
+<ol>
+<li>Click a button to sign up for an<span class="widont">&nbsp;</span>account.</li>
+<li>Enter your email address with a username and<span class="widont">&nbsp;</span>password.</li>
+<li>Wait for a confirmation email to arrive in your inbox. (Some sites may log you in immediately after<span class="widont">&nbsp;</span>registration.)</li>
+<li>Click the link in the email to confirm your account. (Some sites may log you in immediately after confirming the<span class="widont">&nbsp;</span>link.)</li>
+</ol>
+<p>Today’s typical password-reset<span class="widont">&nbsp;</span>flow:</p>
+<ol>
+<li>Enter your email/username and password. Hopefully you didn’t forget<span class="widont">&nbsp;</span>both.</li>
+<li>Click a link to reset your<span class="widont">&nbsp;</span>password.</li>
+<li>Enter your email again. (Some sites are smart about it and preserve the last email you used from the previous sign-in<span class="widont">&nbsp;</span>form.)</li>
+<li>Wait for an email to arrive in your inbox. (Hopefully, it does<span class="widont">&nbsp;</span>arrive.)</li>
+<li>Click the link in the email to reset your password. (Some sites may send you a temporary password<span class="widont">&nbsp;</span>instead.)</li>
+</ol>
+<p>For several months after quitting 1Password, I would reset my password every time I wanted to sign in to a service because, well, I forget (just like my<span class="widont">&nbsp;</span>password).</p>
+<p>Now what if we never asked you for a password when you sigend up and instead just asked for your email address? And every login (hopefully not often with long-lived sessions) would effectively be like a password reset where you get an email with a link to log in or a single-use <span class="caps">PIN</span> confirmation code to enter into the web site/app you’re signing in to. Stripe, Square, Gumroad get this model. If the user trusts his/her phone, you could even send an <span class="caps">SMS</span> to a user’s phone with a link to sign in which would automatically sign him/her in on the device from which the login was<span class="widont">&nbsp;</span>initiated.</p>
+<p>You get for free an audit trail (in the form of <span class="caps">SMS</span> or email) of all login attempts and an email archive of all logins and registrations for all the services you’ve ever used. Add some Google Actions to the emails, and now you could have easy one-click buttons to remotely sign out of services, delete accounts, or sign in again. Say I forgot to sign out of my Etsy account (and assuming Etsy adopted this password-login system) when I was at the local yoga café using the communal iPad to shop for a set of personalised wooden coasters whilst eating a quinoa beet salad. From the comfort of my email, I can remotely sign out of that session — and<span class="widont">&nbsp;</span>víola!</p>
+<p>What we have here is something like two-factor auth (<span class="caps">TFA</span>) but instead of one, it’s<span class="widont">&nbsp;</span>two.</p>
+<p>Always bet on email. It’s a protocol that already has user<span class="widont">&nbsp;</span>adoption.</p>
+<p>What other fancy things you could do? You could use Bitcoin’s block chain to build a <span class="caps">P2P</span>. Or you could model browser authentication after <span class="caps">SSH</span> key-based authentication, where the browser holds onto the private key and the web sites hold onto your public keys (all done behind the scenes à la <span class="caps">SSL</span>). And I’m sure somewhere it’s 4 <span class="caps">AM</span> in some hacker’s basement where he/she’s building a <span class="caps">P2P</span> authentication system with<span class="widont">&nbsp;</span>WebRTC.</p>
+<p>The goal should be to make logins opaque, flexible, painless, and even enjoyable. Forget<span class="widont">&nbsp;</span>passwords.</p>
+<h2 id="demo">Demo</h2>
+<p>The following are four prototypes of a possible implementation of a passwordless-login<span class="widont">&nbsp;</span>system.</p>
+<p>(<span class="caps">P.S.</span> Press “r” at any time to reset the<span class="widont">&nbsp;</span>flow.)</p>
+<h3 id="prototype-a">Prototype A</h3>
+<p>Via <span class="caps">SMS</span> with <span class="caps">PIN</span><span class="widont">&nbsp;</span>code</p>
+<ul>
+<li><a href="http://cvan.github.io/sealogin/demos/a-login/">Try out the Login<span class="widont">&nbsp;</span>demo.</a></li>
+<li><a href="http://cvan.github.io/sealogin/demos/a-register/">Try out the Register<span class="widont">&nbsp;</span>demo.</a></li>
+</ul>
+<h3 id="prototype-b">Prototype B</h3>
+<p>Via email with <span class="caps">PIN</span><span class="widont">&nbsp;</span>code</p>
+<ul>
+<li><a href="http://cvan.github.io/sealogin/demos/b-login/">Try out the Login<span class="widont">&nbsp;</span>demo.</a></li>
+<li><a href="http://cvan.github.io/sealogin/demos/b-register/">Try out the Register<span class="widont">&nbsp;</span>demo.</a></li>
+</ul>
+<h3 id="prototype-c">Prototype C</h3>
+<p>Via <span class="caps">SMS</span> with no<span class="widont">&nbsp;</span>code</p>
+<ul>
+<li><a href="http://cvan.github.io/sealogin/demos/c-login/">Try out the Login<span class="widont">&nbsp;</span>demo.</a></li>
+<li><a href="http://cvan.github.io/sealogin/demos/c-register/">Try out the Register<span class="widont">&nbsp;</span>demo.</a></li>
+</ul>
+<h3 id="prototype-d">Prototype D</h3>
+<p>Via email with no<span class="widont">&nbsp;</span>code</p>
+<ul>
+<li><a href="http://cvan.github.io/sealogin/demos/d-login/">Try out the Login<span class="widont">&nbsp;</span>demo.</a></li>
+<li><a href="http://cvan.github.io/sealogin/demos/d-register/">Try out the Register<span class="widont">&nbsp;</span>demo.</a></li>
+</ul>
+<h2 id="getting-fancy">Getting fancy</h2>
+<p>Some activities to try at<span class="widont">&nbsp;</span>home:</p>
+<ul>
+<li>Hook up <span class="caps">PIN</span> verification to a real <span class="caps">API</span><span class="widont">&nbsp;</span>server.</li>
+<li>Actually send real SMSs and<span class="widont">&nbsp;</span>emails.</li>
+<li>Make mobile and desktop apps for those who don’t want to use their phones and<span class="widont">&nbsp;</span>desktops.</li>
+</ul>
+</section>
+          </article>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="content-wrap">
+          <div class="related related-footer c">
+            <ul class="related-list">
+              <li class="related-item">
+              </li>
+              <li class="related-item"><a href="/archive/" class="related-link related-centre-link"><span class="link-inner"><span class="finger finger-right finger-right-inward">☛</span>Archive<span class="finger finger-left finger-left-inward">☚</span></span></a>
+              </li>
+              <li class="related-item">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://blog.cvan.io/js/main.js"></script>
+  </body>
+</html>
