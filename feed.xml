@@ -5,13 +5,33 @@
     <atom:link href="https://blog.cvan.io/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>https://blog.cvan.io</link>
     <description></description>
-    <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 09 Apr 2020 17:00:00 -0700</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
+      <title>Searching for Code Samples</title>
+      <link>https://blog.cvan.io/articles/searching-for-code/</link>
+      <pubDate>Thu, 09 Apr 2020 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://blog.cvan.io/articles/searching-for-code/</guid>
+      <author></author>
+      <description>&lt;p&gt;I learn coding patterns by examples. Not blog posts. Not videos. Sometimes documentation. But more often it is through out-in-the-wild code samples.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Let’s use &lt;a href=&quot;https://www.framer.com/api/motion/&quot;&gt;&lt;em&gt;Framer Motion&lt;/em&gt;&lt;/a&gt; as an example. Its npm project is called (&lt;a href=&quot;https://www.npmjs.com/package/framer-motion&quot;&gt;&lt;code&gt;framer-motion&lt;/code&gt;&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;To learn from how other folks are using &lt;code&gt;framer-motion&lt;/code&gt;, I regularly peruse code samples I’ve found from searching like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://grep.app/search?q=framer-motion&amp;amp;filter[lang][0]=JavaScript&quot;&gt;search &lt;strong&gt;grep.app&lt;/strong&gt; for &lt;code&gt;framer-motion&lt;/code&gt;, filtered by JavaScript language&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/search?l=&amp;amp;q=framer-motion+filename%3Apackage.json&amp;amp;type=Code&quot;&gt;advanced search on GitHub of code for repositories with &lt;code&gt;package.json&lt;/code&gt; files containing &lt;code&gt;framer-motion&lt;/code&gt; as a dependency&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/browse/depended/framer-motion&quot;&gt;peruse projects published on &lt;code&gt;npm&lt;/code&gt; that depend on &lt;code&gt;framer-motion&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.google.com/search?q=site%3Agithub.com+framer-motion+-inurl%3Aframer%2Fmotion&quot;&gt;search Google for &lt;code&gt;site:github.com framer-motion -inurl:framer/motion&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.google.com/search?q=site%3Agist.github.com+framer-motion&quot;&gt;search Google for &lt;code&gt;site:gist.github.com framer-motion&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hope that helps. Happy sleuthing!&lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>That Sinking Feeling</title>
       <link>https://blog.cvan.io/articles/that-sinking-feeling/</link>
-      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Apr 2017 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://blog.cvan.io/articles/that-sinking-feeling/</guid>
       <author></author>
       <description>&lt;p&gt;Washing your hands in a public washroom can be delightful.&lt;/p&gt;
@@ -38,9 +58,21 @@
 </description>
     </item>
     <item>
+      <title>Daily Personal Pride</title>
+      <link>https://blog.cvan.io/articles/daily-personal-pride/</link>
+      <pubDate>Mon, 03 Oct 2016 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://blog.cvan.io/articles/daily-personal-pride/</guid>
+      <author></author>
+      <description>&lt;p&gt;Do one thing today for yourself, your personal life, that you’ve been itching to do but, for whatever reason, haven’t done.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;For me, that’s sharing my thoughts and insights about design usability problems and solutions I see in the world.&lt;/p&gt;
+&lt;p&gt;My current thinking is that if I can go to bed proud every night of something that has been &lt;em&gt;completed&lt;/em&gt; and that is &lt;em&gt;meaningful&lt;/em&gt; to me, I’ll be able to propel myself to finish everything else I’ve left unfinished.&lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>Shift Your Perspective</title>
       <link>https://blog.cvan.io/articles/shift-your-perspective/</link>
-      <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 03 Oct 2016 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://blog.cvan.io/articles/shift-your-perspective/</guid>
       <author></author>
       <description>&lt;p&gt;How do you learn to finish all the projects you’ve started, respond to all the emails you’ve received, and ensure all loose ends in your life are attended to?&lt;/p&gt;
@@ -57,21 +89,9 @@
 </description>
     </item>
     <item>
-      <title>Daily Personal Pride</title>
-      <link>https://blog.cvan.io/articles/daily-personal-pride/</link>
-      <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://blog.cvan.io/articles/daily-personal-pride/</guid>
-      <author></author>
-      <description>&lt;p&gt;Do one thing today for yourself, your personal life, that you’ve been itching to do but, for whatever reason, haven’t done.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;For me, that’s sharing my thoughts and insights about design usability problems and solutions I see in the world.&lt;/p&gt;
-&lt;p&gt;My current thinking is that if I can go to bed proud every night of something that has been &lt;em&gt;completed&lt;/em&gt; and that is &lt;em&gt;meaningful&lt;/em&gt; to me, I’ll be able to propel myself to finish everything else I’ve left unfinished.&lt;/p&gt;
-</description>
-    </item>
-    <item>
       <title>Lunch Time: Crunch Time</title>
       <link>https://blog.cvan.io/articles/lunch-time-crunch-time/</link>
-      <pubDate>Wed, 28 Oct 2015 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2015 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://blog.cvan.io/articles/lunch-time-crunch-time/</guid>
       <author></author>
       <description>&lt;p&gt;I struggle with work-life balance.&lt;/p&gt;
@@ -98,7 +118,7 @@ Historically, I’ve always worked on things when I was in the mood. Writing’s
     <item>
       <title>Wait for Inspiration</title>
       <link>https://blog.cvan.io/articles/wait-for-inspiration/</link>
-      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 31 Mar 2015 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://blog.cvan.io/articles/wait-for-inspiration/</guid>
       <author></author>
       <description>&lt;p&gt;I’ve heard people say, “don’t wait for inspiration” or “don’t wait for motivation.” I disagree.&lt;/p&gt;
@@ -115,7 +135,7 @@ Historically, I’ve always worked on things when I was in the mood. Writing’s
     <item>
       <title>Corrective Design</title>
       <link>https://blog.cvan.io/articles/corrective-design/</link>
-      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Mar 2015 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://blog.cvan.io/articles/corrective-design/</guid>
       <author></author>
       <description>&lt;p&gt;I like applications that correct me when I make mistakes.&lt;/p&gt;
@@ -140,9 +160,21 @@ Historically, I’ve always worked on things when I was in the mood. Writing’s
 </description>
     </item>
     <item>
+      <title>Investment and Identification in Life Pursuits</title>
+      <link>https://blog.cvan.io/articles/identification-and-investment-in-life-pursuits/</link>
+      <pubDate>Fri, 23 Jan 2015 16:00:00 -0800</pubDate>
+      <guid isPermaLink="true">https://blog.cvan.io/articles/identification-and-investment-in-life-pursuits/</guid>
+      <author></author>
+      <description>&lt;p&gt;Is it possible to have an interest, goal, job, project, or idea without complete identification?&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Outward recognition/imaging and pride thrive on dopamine chasing. “I am a listener of underground hip-hop music,” or “I am an inventor of this programming technique,” I tell myself.&lt;/p&gt;
+&lt;p&gt;We lie to ourselves, chase the wrong things, not knowing what or whom to pursue or let go. Start by watching yourself. As honestly as you can. It can be hard. But you want to be able to look back knowing you experienced a life fulfilled, not just a life completed.&lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>Pretension and Pleasure in Watching Cinema</title>
       <link>https://blog.cvan.io/articles/pretension-and-pleasure-in-watching-cinema/</link>
-      <pubDate>Sat, 24 Jan 2015 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 23 Jan 2015 16:00:00 -0800</pubDate>
       <guid isPermaLink="true">https://blog.cvan.io/articles/pretension-and-pleasure-in-watching-cinema/</guid>
       <author></author>
       <description>&lt;p&gt;Watching an episode of the hilarious &lt;a href=&quot;http://www.imdb.com/title/tt1442437/&quot;&gt;&lt;em&gt;Modern Family&lt;/em&gt;&lt;/a&gt;, I was reminded of that warm feeling I used to get from watching movies, films, cinema. Specifically, from the &lt;a href=&quot;http://en.wikipedia.org/wiki/French_New_Wave&quot;&gt;French New Wave&lt;/a&gt;, &lt;em&gt;La Nouvelle Vague&lt;/em&gt;.&lt;/p&gt;
@@ -162,21 +194,9 @@ Historically, I’ve always worked on things when I was in the mood. Writing’s
 </description>
     </item>
     <item>
-      <title>Investment and Identification in Life Pursuits</title>
-      <link>https://blog.cvan.io/articles/identification-and-investment-in-life-pursuits/</link>
-      <pubDate>Sat, 24 Jan 2015 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://blog.cvan.io/articles/identification-and-investment-in-life-pursuits/</guid>
-      <author></author>
-      <description>&lt;p&gt;Is it possible to have an interest, goal, job, project, or idea without complete identification?&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Outward recognition/imaging and pride thrive on dopamine chasing. “I am a listener of underground hip-hop music,” or “I am an inventor of this programming technique,” I tell myself.&lt;/p&gt;
-&lt;p&gt;We lie to ourselves, chase the wrong things, not knowing what or whom to pursue or let go. Start by watching yourself. As honestly as you can. It can be hard. But you want to be able to look back knowing you experienced a life fulfilled, not just a life completed.&lt;/p&gt;
-</description>
-    </item>
-    <item>
       <title>Minimum Viable Exercise</title>
       <link>https://blog.cvan.io/articles/minimum-viable-exercise/</link>
-      <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 14 Jan 2015 16:00:00 -0800</pubDate>
       <guid isPermaLink="true">https://blog.cvan.io/articles/minimum-viable-exercise/</guid>
       <author></author>
       <description>&lt;p&gt;Try to find an exercise you can incorporate into your morning routine. You should be able to do it in under a few minutes. Strive for consistency and good feeling. &lt;span class=&quot;more&quot;&gt;&lt;/span&gt; For me, that’s at least 20 military pushups. Some consistent number of pushups that I must do before I shower. And I feel good about it. No need to guilt myself that I haven’t been to the gym or biked to work recently. Only pride that I am being consistently active and therefore getting progressively more fit.&lt;/p&gt;
@@ -186,7 +206,7 @@ Historically, I’ve always worked on things when I was in the mood. Writing’s
     <item>
       <title>Password Resets</title>
       <link>https://blog.cvan.io/articles/password-resets/</link>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Jul 2014 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://blog.cvan.io/articles/password-resets/</guid>
       <author></author>
       <description>&lt;p&gt;When I type my email/username in a log-in form, and realise I’ve forgotten my password, I expect the Password Reset form to preserve my email/username.&lt;/p&gt;
@@ -576,7 +596,7 @@ Historically, I’ve always worked on things when I was in the mood. Writing’s
 &lt;p&gt;The Password Reset form relied on placeholder text (“Email” with an “@” icon on the right side of the input) instead of an always-present form label. When a field was focussed, unless I had paid good attention, I forgot what the field. Select all. Backspace. Oh. Right.&lt;/p&gt;
 &lt;p&gt;From the Password Reset screen, when I provided a bogus email, I was redirected to &lt;a href=&quot;https://www.airbnb.com/login?email=bogus%40email.biz&quot;&gt;&lt;code&gt;/login?email=bogus%40email.biz&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;No account exists for bogus@email.biz. Maybe you signed up using a different/incorrect e-mail address.&lt;/p&gt;
+&lt;p&gt;No account exists for &lt;a href=&quot;mailto:bogus@email.biz&quot;&gt;bogus@email.biz&lt;/a&gt;. Maybe you signed up using a different/incorrect e-mail address.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Airbnb is leaking information about which email addresses have Airbnb accounts.&lt;/p&gt;
 &lt;p&gt;I was unable to find any evidence of ratelimiting or CAPTCHAs.&lt;/p&gt;
@@ -616,7 +636,7 @@ Historically, I’ve always worked on things when I was in the mood. Writing’s
 &lt;p&gt;Unfortunately, my email address was never preserved.&lt;/p&gt;
 &lt;p&gt;For the Email/Phone field, &lt;code&gt;type=&amp;quot;text&amp;quot;&lt;/code&gt; was used. This is technically correct, but when viewed on the mobile site (instead from the native app), the keyboard makes it slightly more difficult to enter an email address or a phone number.&lt;/p&gt;
 &lt;p&gt;The Email/Phone and Password fields use &lt;code&gt;&amp;lt;label&amp;gt;&lt;/code&gt;s correctly for &lt;a href=&quot;https://www.facebook.com/login&quot;&gt;logging in&lt;/a&gt;, but the field on the &lt;a href=&quot;https://blog.cvan.io/articles/password-resets/[Password%20Reset%20page](https://www.facebook.com/recover/initiate&quot;&gt;Password Reset page&lt;/a&gt; does not.&lt;/p&gt;
-&lt;p&gt;Although the &lt;a href=&quot;https://www.facebook.com/recover/initiate&quot;&gt;Password Reset page&lt;/a&gt; is very helpful when someone legitimately forgets his/her password, I was able to type in anyone’s email, phone, username, or full name to see if that person had a Facebook account. I was also able to see masked (e.g., &lt;code&gt;h*****e@gmail.com&lt;/code&gt; and &lt;code&gt;+********08&lt;/code&gt;) emails and phone numbers, as well as the user’s networks and profile photo (if the user’s privacy settings permitted such).&lt;/p&gt;
+&lt;p&gt;Although the &lt;a href=&quot;https://www.facebook.com/recover/initiate&quot;&gt;Password Reset page&lt;/a&gt; is very helpful when someone legitimately forgets his/her password, I was able to type in anyone’s email, phone, username, or full name to see if that person had a Facebook account. I was also able to see masked (e.g., &lt;a href=&quot;mailto:`h*****e@gmail.com&quot;&gt;`h*****e@gmail.com&lt;/a&gt;&lt;code&gt;and&lt;/code&gt;+&lt;strong&gt;&lt;em&gt;**&lt;/em&gt;&lt;/strong&gt;08`) emails and phone numbers, as well as the user’s networks and profile photo (if the user’s privacy settings permitted such).&lt;/p&gt;
 &lt;p&gt;When a user’s profile photo was shown, Facebook told me this:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;You can see your name and profile picture because you’re using a computer network you’ve logged in on before.&lt;/p&gt;
@@ -721,7 +741,7 @@ Historically, I’ve always worked on things when I was in the mood. Writing’s
 &lt;li&gt;Cookies are unnecessary. Use query-string parameters or &lt;code&gt;sessionStorage&lt;/code&gt; (but remember to clear the value when the user navigates away).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Use proper input types (&lt;code&gt;type=&amp;quot;email&amp;quot;&lt;/code&gt; for email or &lt;code&gt;type=&amp;quot;text&amp;quot;&lt;/code&gt; for username). (Bonus points for input hints, such as autocompleting &lt;code&gt;@gmail.com&lt;/code&gt;.)&lt;/li&gt;
+&lt;li&gt;Use proper input types (&lt;code&gt;type=&amp;quot;email&amp;quot;&lt;/code&gt; for email or &lt;code&gt;type=&amp;quot;text&amp;quot;&lt;/code&gt; for username). (Bonus points for input hints, such as autocompleting &lt;a href=&quot;mailto:`@gmail.com&quot;&gt;`@gmail.com&lt;/a&gt;`.)&lt;/li&gt;
 &lt;li&gt;Use &lt;code&gt;pushState&lt;/code&gt; when redirecting to the Password Reset page from the Log-In/Register page.&lt;/li&gt;
 &lt;li&gt;Use form &lt;code&gt;&amp;lt;label&amp;gt;&lt;/code&gt;s and &lt;code&gt;placeholder&lt;/code&gt; text appropriately.&lt;/li&gt;
 &lt;li&gt;Use inline form validation for success and error messages.&lt;/li&gt;
@@ -733,7 +753,7 @@ Historically, I’ve always worked on things when I was in the mood. Writing’s
     <item>
       <title>Flexsort: Using Flexbox to sort search results</title>
       <link>https://blog.cvan.io/articles/flexsort-using-flexbox-to-sort-search-results/</link>
-      <pubDate>Tue, 08 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 07 Apr 2014 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://blog.cvan.io/articles/flexsort-using-flexbox-to-sort-search-results/</guid>
       <author></author>
       <description>&lt;p&gt;Most sites that use search allow you to sort by a particular criterion such as price or year. When you sort by a particular criterion, most sites either synchronously load a new page or update the DOM right then and there.&lt;/p&gt;
