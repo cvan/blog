@@ -18,7 +18,7 @@
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Drop this script in, and you are good to go. Just click on the element and you will be alerted with its font size.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;&lt;pre&gt;
-  &lt;script&gt;
+  &amp;lt;script&amp;gt;
     window.addEventListener(‘click’, function (evt) {
       if (evt &amp;amp;&amp;amp; evt.target &amp;amp;&amp;amp; evt.target.getAttribute(‘data-font-size’)) {
         alert(evt.target.getAttribute(‘data-font-size’));
@@ -30,7 +30,7 @@
         window.getComputedStyle(el).getPropertyValue(‘font-size’)
       );
     });
-  &lt;/script&gt;
+  &amp;lt;/script&amp;gt;
 &lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
 </description>
     </item>

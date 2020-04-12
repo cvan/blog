@@ -30,7 +30,7 @@
 <p><span class="more"></span></p>
 <p>Drop this script in, and you are good to go. Just click on the element and you will be alerted with its font<span class="widont">&nbsp;</span>size.</p>
 <p><code><pre>
-  <script>
+  &lt;script&gt;
     window.addEventListener(‘click’, function (evt) {
       if (evt &amp;&amp; evt.target &amp;&amp; evt.target.getAttribute(‘data-font-size’)) {
         alert(evt.target.getAttribute(‘data-font-size’));
@@ -42,7 +42,7 @@
         window.getComputedStyle(el).getPropertyValue(‘font-size’)
       );
     });
-  </script>
+  &lt;/script&gt;
 </pre></code></p>
 </section>
           </article>
