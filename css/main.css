@@ -11,13 +11,13 @@ body {
 }
 
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 body {
   background-color: #fff;
   color: #333;
-  font: 1.2rem/1.5 BlinkMacSystemFont, -apple-system,
+  font: 1.2rem/1.5 system-ui, BlinkMacSystemFont, -apple-system,
     Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans,
     Droid Sans, Helvetica Neue, sans-serif;
@@ -118,7 +118,7 @@ tt {
 .tt,
 .header time {
   display: block;
-  font-size: .9rem;
+  /* font-size: .9em; */
   margin-top: .25rem;
 }
 
@@ -178,7 +178,7 @@ blockquote::before {
   content: '\201C';
   font: 600 3rem/1 Georgia, serif;
   position: absolute;
-  left: .25rem;
+  left: .5rem;
   top: 0;
 }
 
@@ -259,7 +259,7 @@ h1 a:hover {
 .article__heading {
   font-size: 1.6rem;
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 .article .date {
@@ -317,7 +317,6 @@ h1 a:hover {
 
 code {
   color: #000;
-  font-size: .85rem;
 }
 
 pre code {

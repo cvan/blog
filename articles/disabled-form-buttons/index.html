@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Why You Should (Almost) Never Disable a Button in a Form | cvan’s blog
+    </title>
+    <link rel="alternate" href="https://blog.cvan.io/feed.xml" type="application/rss+xml">
+  </head>
+  <body class="article-detail">
+    <div class="wrap">
+      <header class="header c">
+        <div class="content-wrap">
+          <header class="related related-header c"><a href="/" class="related-link related-centre-link"><span class="finger finger-left">☚</span>Return to blog</a>
+          </header>
+          <header class="page-title">
+            <h1>Why You Should (Almost) Never Disable a Button in a Form</h1>
+            <p class="author">Written by <span class="author">cvan</span> on 
+              <time>12 April 2020</time>
+            </p>
+          </header>
+        </div>
+      </header>
+      <main id="content" class="content">
+        <div class="content-wrap">
+          <article class="article">
+            <section class="content"><p>When should a button be disalbed on a form on web page? Never. Except in the rare cases of uploading a<span class="widont">&nbsp;</span>file.</p>
+<p><span class="more"></span></p>
+<p>From a usability perspective, the pattern of using an <code>&lt;button disabled&gt;</code> in a <code>&lt;form&gt;</code> for form validation causes cognitive overload because users have to infer the form&rsquo;s validation<span class="widont">&nbsp;</span>requirements.</p>
+<p>An appropriate use of <code>&lt;button disabled&gt;</code> is when an active <code>&lt;button&gt;</code> changes temporarily <code>&lt;button disabled&gt;</code> when some action is being processed (e.g., image uploads, payment verification) that should block the submission of the<span class="widont">&nbsp;</span>form.</p>
+<p>Leverage the web browser’s <a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation">built-in <span class="caps">HTML5</span> form validation</a> (e.g., <code>&lt;input required&gt;</code>). Clicking on an always-active <code>&lt;button type=&quot;submit&quot;&gt;</code> in a <code>&lt;form&gt;</code> validates all fields with their constraints and the user will be displayed native error messages. (Caveat: the <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLObjectElement/setCustomValidity">error strings can be customised</a> but the styles cannot<span class="widont">&nbsp;</span>be.)</p>
+<h2 id="tips">Tips</h2>
+<ol>
+<li>Add text hints contextually near the fields that are <code>Optional</code> or <code>Required</code>. If most fields are required — so as to not clutter the <span class="caps">UI</span> and desensitise with distracting <code>Required</code> text everywhere — use <code>Optional</code> text when needed and have the user assume the lack of implies <code>Required</code>.</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLObjectElement/setCustomValidity">Override the rendering</a> of the browser&rsquo;s error messages when the user clicks on the <code>&lt;button type=&quot;submit&quot;&gt;Next&lt;/button&gt;</code>, and then display a custom error message (ideally, contextually inline or, if the error involves multiple fields, at the top of the<span class="widont">&nbsp;</span>form).</li>
+</ol>
+<p>From usability expert <a href="https://twitter.com/lukew">LukeW</a>&rsquo;s book, (<em>Best Practices for Form Design</em>)(<a href="https://static.lukew.com/webforms_lukew.pdf)">https://static.lukew.com/webforms_lukew.pdf)</a>:</p>
+<p><img width="662" alt="image" src="https://user-images.githubusercontent.com/203725/78061173-a6feb400-7341-11ea-8c57-568ccc4f491d.png"></p>
+<p><img width="584" alt="image" src="https://user-images.githubusercontent.com/203725/78061334-f04f0380-7341-11ea-98f2-6d94f265741b.png"></p>
+<p>Furthermore, there is <a href="https://ux.stackexchange.com/a/76306">somewhat of a consensus on <span class="caps">UX</span> StackExchange</a>, which cites a relevant <a href="https://www.hindawi.com/journals/ahci/2011/202701/">usability study</a>:</p>
+<blockquote>
+<p>Don’t ever disable the submit button and only show validation errors after the user hits<span class="widont">&nbsp;</span>submit.</p>
+</blockquote>
+<p>And, <a href="https://ux.stackexchange.com/a/78667">another other one</a>:</p>
+<blockquote>
+<p>The always-active button [is the better<span class="widont">&nbsp;</span>solution].</p>
+<p>Why?</p>
+<p>With an always-active button, you can select it, and then be told what isn’t<span class="widont">&nbsp;</span>complete.</p>
+</blockquote>
+<p>And, <a href="https://ux.stackexchange.com/a/78667">another other one</a>:</p>
+<blockquote>
+<p>With an inactive button, you are stuck. You may not know why it’s inactive and as such, hit a dead<span class="widont">&nbsp;</span>end.</p>
+</blockquote>
+<p>And, <a href="https://ux.stackexchange.com/questions/78663/should-i-show-the-save-button-before-the-required-state-is-achieved#comment122477_78664">another other one</a>:</p>
+<blockquote>
+<p>Inactive buttons are incredibly annoying. There’s no indication as to why they are inactive providing no way for the user to figure out how to<span class="widont">&nbsp;</span>activate</p>
+</blockquote>
+<p>And, <a href="https://ux.stackexchange.com/a/76303">another other one</a>:</p>
+<blockquote>
+<p>If the form is still invalid when clicking submit you could auto scroll to show them (if they’ve get “out of the screen”) and <strong>show the errors below the fields until each field is modified</strong>. This approach is currently used by Google, Facebook and<span class="widont">&nbsp;</span>Twitter.</p>
+<p>In case you want to disable the submit button, you <span class="caps">MUST</span> at least show a message next to it giving the reason why it’s disabled because if you don’t it could cause confusion to the users. Anyway I don’t recommend it, remember in that case you <strong>are supposing the user is thinking (and thinking correctly) “one step ahead”, which is a really bad <span class="caps">UX</span> design<span class="widont">&nbsp;</span>practice</strong>.</p>
+</blockquote>
+<p>Reenable, not disable, your form-submission buttons. Your users will thank<span class="widont">&nbsp;</span>you.</p>
+</section>
+          </article>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="content-wrap">
+          <div class="related related-footer c">
+            <ul class="related-list">
+              <li class="related-item">
+              </li>
+              <li class="related-item"><a href="/archive/" class="related-link related-centre-link"><span class="link-inner"><span class="finger finger-right finger-right-inward">☛</span>Archive<span class="finger finger-left finger-left-inward">☚</span></span></a>
+              </li>
+              <li class="related-item">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://blog.cvan.io/js/main.js"></script>
+  </body>
+</html>
