@@ -29,6 +29,6 @@
   "dependencies": {
     "moment": "2.15.1",
     "typogr": "0.6.8",
-    "underscore": "1.8.3"
+    "underscore": "1.12.1"
   }
 }
